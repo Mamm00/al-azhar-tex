@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Control Center — Al Azhar Tex</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body class="admin-body">
+
+  <!-- ======= PIN gate ======= -->
+  <div class="auth" id="auth-screen">
+    <div class="auth__card">
+      <img class="auth__logo" src="assets/logo.jpg" alt="Al Azhar Tex logo" width="72" height="72" />
+      <h1 class="auth__title">Al Azhar <em>Tex</em></h1>
+      <p class="auth__sub">Admin Control Center</p>
+      <form id="auth-form">
+        <label class="field" for="pin">
+          PIN code
+          <input type="password" id="pin" inputmode="numeric" autocomplete="off" placeholder="••••" />
+        </label>
+        <p class="auth__error" id="auth-error" role="alert"></p>
+        <button type="submit" class="btn btn--primary btn--block">Unlock</button>
+      </form>
+      <p class="auth__hint">First-time PIN: <strong>2006</strong> — change it in Settings after signing in.</p>
+    </div>
+  </div>
+
+  <!-- ======= App shell ======= -->
+  <div class="shell" id="app-shell" hidden>
+    <aside class="sidebar">
+      <div class="sidebar__brand">
+        <img src="assets/logo.jpg" alt="" width="44" height="44" />
+        <div>
+          <p class="sidebar__name">Al Azhar <em>Tex</em></p>
+          <p class="sidebar__role">Control Center</p>
+        </div>
+      </div>
+
+      <nav class="sidebar__nav" aria-label="Admin sections">
+        <button class="navitem is-active" data-tab="dashboard" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4V4Zm9 0h7v4h-7V4Zm0 7h7v9h-7v-9Zm-9 4h7v5H4v-5Z"/></svg>
+          Dashboard
+        </button>
+        <button class="navitem" data-tab="fabrics" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v4H4V4Zm0 6h16v3H4v-3Zm0 5h16v5H4v-5Z"/></svg>
+          Fabrics
+        </button>
+        <button class="navitem" data-tab="content" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v12H8l-4 4V4Zm3 4h10v2H7V8Zm0 3h10v2H7v-2Z"/></svg>
+          Site content
+        </button>
+        <button class="navitem" data-tab="contact" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 3.2V17h16V8.2l-8 5-8-5Zm8 3.6 8-5H4l8 5Z"/></svg>
+          Contact &amp; hours
+        </button>
+        <button class="navitem" data-tab="leads" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0-8a3 3 0 1 1-3 3 3 3 0 0 1 3-3Zm8 18v-1a7 7 0 0 0-16 0v1h2v-1a5 5 0 0 1 10 0v1h4Z"/></svg>
+          Leads
+          <span class="navitem__badge" id="leads-badge" hidden>0</span>
+        </button>
+        <button class="navitem" data-tab="settings" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8a4 4 0 1 0 4 4 4 4 0 0 0-4-4Zm0 6a2 2 0 1 1 2-2 2 2 0 0 1-2 2Zm9.4 2.1-1.9.5a7.7 7.7 0 0 1-.8 1.5l1 1.7a1 1 0 0 1 0 1.3l-1.4 1.4a1 1 0 0 1-1.3 0l-1.7-1a7.7 7.7 0 0 1-1.5.8l-.4 1.9a1 1 0 0 1-1 .8h-2a1 1 0 0 1-1-.8l-.4-1.9a7.7 7.7 0 0 1-1.5-.8l-1.7 1a1 1 0 0 1-1.3 0L3.7 20a1 1 0 0 1 0-1.3l1-1.7a7.7 7.7 0 0 1-.8-1.5l-1.9-.4a1 1 0 0 1-.8-1v-2a1 1 0 0 1 .8-1l1.9-.4a7.7 7.7 0 0 1 .8-1.5l-1-1.7a1 1 0 0 1 0-1.3L5 6.3a1 1 0 0 1 1.3 0l1.7 1a7.7 7.7 0 0 1 1.5-.8l.4-1.9a1 1 0 0 1 1-.8h2a1 1 0 0 1 1 .8l.4 1.9a7.7 7.7 0 0 1 1.5.8l1.7-1a1 1 0 0 1 1.3 0l1.4 1.4a1 1 0 0 1 0 1.3l-1 1.7a7.7 7.7 0 0 1 .8 1.5l1.9.4a1 1 0 0 1 .8 1v2a1 1 0 0 1-1 .8Z"/></svg>
+          Settings
+        </button>
+      </nav>
+
+      <div class="sidebar__foot">
+        <a class="sidebar__link" href="index.html" target="_blank" rel="noopener">↗ View live site</a>
+        <button class="sidebar__link" id="sign-out" type="button">Sign out</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="main__head">
+        <h1 id="tab-title">Dashboard</h1>
+        <p class="main__updated" id="last-updated"></p>
+      </header>
+
+      <!-- Dashboard -->
+      <section class="panel" id="tab-dashboard">
+        <div class="stat-grid">
+          <div class="stat-card"><span class="stat-card__num" id="stat-leads">0</span><span class="stat-card__label">Total leads</span></div>
+          <div class="stat-card"><span class="stat-card__num stat-card__num--red" id="stat-unread">0</span><span class="stat-card__label">Unread leads</span></div>
+          <div class="stat-card"><span class="stat-card__num" id="stat-fabrics">0</span><span class="stat-card__label">Fabrics listed</span></div>
+          <div class="stat-card"><span class="stat-card__num stat-card__num--small" id="stat-updated">—</span><span class="stat-card__label">Content last updated</span></div>
+        </div>
+
+        <div class="callout">
+          <strong>How this control center works.</strong>
+          Changes are saved in this browser (localStorage) and apply immediately to the main
+          site opened in the same browser. To publish changes to every visitor, host the site
+          and connect a backend/database — or use <strong>Settings → Export data (JSON)</strong>
+          as a portable snapshot of all content.
+        </div>
+
+        <div class="quick-actions">
+          <button class="btn btn--primary" type="button" data-goto="fabrics">Manage fabrics</button>
+          <button class="btn btn--ghost" type="button" data-goto="leads">Review leads</button>
+          <button class="btn btn--ghost" type="button" data-goto="content">Edit hero text</button>
+        </div>
+      </section>
+
+      <!-- Fabrics -->
+      <section class="panel" id="tab-fabrics" hidden>
+        <div class="panel__toolbar">
+          <p class="panel__hint">Fabrics appear on the main site in this order. Use the search bar on the site to test changes.</p>
+          <button class="btn btn--primary" id="fab-add" type="button">+ Add fabric</button>
+        </div>
+        <div id="fab-list"></div>
+      </section>
+
+      <!-- Content -->
+      <section class="panel" id="tab-content" hidden>
+        <div class="form-card">
+          <h2 class="form-card__title">Hero section</h2>
+          <div class="form-grid">
+            <label class="field" for="c-eyebrow">Eyebrow line
+              <input type="text" id="c-eyebrow" />
+            </label>
+            <label class="field" for="c-badge-num">Badge number
+              <input type="text" id="c-badge-num" />
+            </label>
+            <label class="field field--wide" for="c-title">Headline (HTML allowed — wrap a phrase in <code>&lt;span class="text-red"&gt;…&lt;/span&gt;</code> to highlight it in red)
+              <input type="text" id="c-title" />
+            </label>
+            <label class="field field--wide" for="c-lead">Lead paragraph
+              <textarea id="c-lead" rows="3"></textarea>
+            </label>
+            <label class="field field--wide" for="c-badge-label">Badge label (use <code>&lt;br&gt;</code> for a line break)
+              <input type="text" id="c-badge-label" />
+            </label>
+          </div>
+
+          <h2 class="form-card__title">Catalogue note</h2>
+          <label class="field field--wide" for="c-notice">Text under the fabric grid (HTML allowed, e.g. a link to <code>#contact</code>)
+            <textarea id="c-notice" rows="2"></textarea>
+          </label>
+
+          <div class="form-card__actions">
+            <button class="btn btn--primary" id="content-save" type="button">Save content</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="panel" id="tab-contact" hidden>
+        <div class="form-card">
+          <h2 class="form-card__title">Contact details</h2>
+          <p class="panel__hint">These update the contact section, the top bar and the footer at once.</p>
+          <div class="form-grid">
+            <label class="field" for="k-phone">Phone (display)
+              <input type="text" id="k-phone" placeholder="+20 1X XXX XXXX" />
+            </label>
+            <label class="field" for="k-phonehref">Phone number for tap-to-call
+              <input type="text" id="k-phonehref" placeholder="+201XXXXXXXXX" />
+            </label>
+            <label class="field" for="k-email">Email
+              <input type="email" id="k-email" />
+            </label>
+            <label class="field" for="k-hours">Working hours
+              <input type="text" id="k-hours" placeholder="Mon – Sat · 10:00 AM – 9:00 PM" />
+            </label>
+            <label class="field field--wide" for="k-address">Location / address
+              <input type="text" id="k-address" />
+            </label>
+          </div>
+          <div class="form-card__actions">
+            <button class="btn btn--primary" id="contact-save" type="button">Save contact details</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Leads -->
+      <section class="panel" id="tab-leads" hidden>
+        <div class="panel__toolbar">
+          <p class="panel__hint" id="leads-summary">0 leads</p>
+          <div class="panel__actions">
+            <button class="btn btn--ghost btn--sm" id="leads-export" type="button">Export CSV</button>
+            <button class="btn btn--danger-ghost btn--sm" id="leads-clear" type="button">Clear all</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="leads-table">
+            <thead>
+              <tr>
+                <th>Date</th><th>Name</th><th>Company</th><th>Phone</th>
+                <th>Fabrics</th><th>Message</th><th>Status</th><th></th>
+              </tr>
+            </thead>
+            <tbody id="leads-body"></tbody>
+          </table>
+        </div>
+        <p class="panel__empty" id="leads-empty">
+          No leads yet — submissions from the contact form appear here.
+        </p>
+      </section>
+
+      <!-- Settings -->
+      <section class="panel" id="tab-settings" hidden>
+        <div class="form-card">
+          <h2 class="form-card__title">Change admin PIN</h2>
+          <div class="form-grid">
+            <label class="field" for="s-pin-cur">Current PIN
+              <input type="password" id="s-pin-cur" inputmode="numeric" autocomplete="off" />
+            </label>
+            <label class="field" for="s-pin-next">New PIN (4–8 digits)
+              <input type="password" id="s-pin-next" inputmode="numeric" autocomplete="off" />
+            </label>
+            <label class="field" for="s-pin-conf">Confirm new PIN
+              <input type="password" id="s-pin-conf" inputmode="numeric" autocomplete="off" />
+            </label>
+          </div>
+          <div class="form-card__actions">
+            <button class="btn btn--primary" id="pin-save" type="button">Update PIN</button>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h2 class="form-card__title">Data</h2>
+          <p class="panel__hint">Export a JSON snapshot of all site content (hero, fabrics, contact, note).</p>
+          <div class="form-card__actions">
+            <button class="btn btn--ghost" id="data-export" type="button">Export data (JSON)</button>
+          </div>
+        </div>
+
+        <div class="form-card form-card--danger">
+          <h2 class="form-card__title">Danger zone</h2>
+          <div class="danger-row">
+            <p>Restore hero, fabrics, contact and note to the original defaults.</p>
+            <button class="btn btn--danger" id="reset-data" type="button">Reset site content</button>
+          </div>
+          <div class="danger-row">
+            <p>Delete every lead captured by the contact form.</p>
+            <button class="btn btn--danger" id="leads-wipe" type="button">Clear all leads</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

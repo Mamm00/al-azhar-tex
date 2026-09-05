@@ -9,3 +9,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Node (test tooling)
+node_modules/

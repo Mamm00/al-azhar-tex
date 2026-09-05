@@ -1,11 +1,135 @@
-/* Al Azhar Tex — site interactions */
+/* Al Azhar Tex — site interactions + data-driven rendering */
 (function () {
   'use strict';
 
+  var AATX = window.AATX || {};
+
+  /* =========================================================
+     Render admin-managed data (hero, fabrics, contact, note)
+     Falls back gracefully when the data layer is unavailable.
+     ========================================================= */
+
+  function $(id) { return document.getElementById(id); }
+
+  function setHtml(el, value, fallbackHtml) {
+    if (!el) return;
+    if (typeof AATX.sanitizeHtml === 'function') {
+      el.innerHTML = AATX.sanitizeHtml(value, fallbackHtml);
+    } else if (value !== undefined && value !== null) {
+      el.innerHTML = String(value);
+    }
+  }
+
+  function renderFabrics(fabrics) {
+    var grid = $('fabrics-grid');
+    if (!grid) return;
+
+    var list = Array.isArray(fabrics) ? fabrics : [];
+
+    grid.innerHTML = list.map(function (f) {
+      var name = String(f.name || 'Untitled fabric');
+      var chip = String(f.chip || '');
+      var chipClass = f.chipStyle === 'red' ? 'chip--red' : 'chip--blue';
+      var swatch = String(f.swatch || '');
+      var swatchClass = swatch ? ' swatch--' + swatch : '';
+      var type = String(f.type || '');
+      var desc = String(f.desc || '');
+      var best = String(f.bestFor || '');
+      var esc = function (s) {
+        return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      };
+      return '<article class="fabric-card" data-name="' + esc(name.toLowerCase()) + '">' +
+        '<div class="fabric-card__swatch' + swatchClass + '" aria-hidden="true"></div>' +
+        '<div class="fabric-card__body">' +
+          '<div class="fabric-card__top">' +
+            '<h3 class="fabric-card__name">' + esc(name) + '</h3>' +
+            (chip ? '<span class="chip ' + chipClass + '">' + esc(chip) + '</span>' : '') +
+          '</div>' +
+          (type ? '<p class="fabric-card__type">' + esc(type) + '</p>' : '') +
+          (desc ? '<p class="fabric-card__desc">' + esc(desc) + '</p>' : '') +
+          (best ? '<p class="fabric-card__meta">Best for: ' + esc(best) + '</p>' : '') +
+        '</div>' +
+      '</article>';
+    }).join('');
+
+    var countEl = $('fabric-count');
+    if (countEl) {
+      countEl.textContent = list.length + (list.length === 1 ? ' fabric' : ' fabrics');
+    }
+  }
+
+  function renderSite(data) {
+    if (!data || typeof data !== 'object') return;
+
+    // Hero
+    if (data.hero) {
+      if (data.hero.eyebrow !== undefined) { var e = $('js-hero-eyebrow'); if (e) e.textContent = data.hero.eyebrow; }
+      setHtml($('js-hero-title'), data.hero.title);
+      if (data.hero.lead !== undefined) { var l = $('js-hero-lead'); if (l) l.textContent = data.hero.lead; }
+      if (data.hero.badgeNum !== undefined) { var b = $('js-hero-badge-num'); if (b) b.textContent = data.hero.badgeNum; }
+      setHtml($('js-hero-badge-label'), data.hero.badgeLabel);
+    }
+
+    // Catalogue note
+    setHtml($('js-fabrics-notice'), data.notice);
+
+    // Fabrics
+    renderFabrics(data.fabrics);
+
+    // Contact (main + top bar + footer)
+    if (data.contact) {
+      var c = data.contact;
+      var phone = $('js-contact-phone');
+      if (phone && c.phoneDisplay !== undefined) {
+        phone.textContent = c.phoneDisplay;
+        phone.setAttribute('href', 'tel:' + String(c.phoneHref || c.phoneDisplay).replace(/[^\d+]/g, ''));
+      }
+      var email = $('js-contact-email');
+      if (email && c.email !== undefined) {
+        email.textContent = c.email;
+        email.setAttribute('href', 'mailto:' + c.email);
+      }
+      var addr = $('js-contact-address');
+      if (addr && c.address !== undefined) addr.textContent = c.address;
+      var hours = $('js-contact-hours');
+      if (hours && c.hours !== undefined) hours.textContent = c.hours;
+
+      var topbarHours = $('js-topbar-hours');
+      if (topbarHours && c.hours !== undefined) topbarHours.textContent = c.hours;
+
+      if (c.phoneDisplay !== undefined) {
+        var fp = document.querySelectorAll('.js-footer-phone');
+        for (var i = 0; i < fp.length; i++) {
+          fp[i].textContent = c.phoneDisplay;
+          fp[i].setAttribute('href', 'tel:' + String(c.phoneHref || c.phoneDisplay).replace(/[^\d+]/g, ''));
+        }
+      }
+      if (c.email !== undefined) {
+        var fe = document.querySelectorAll('.js-footer-email');
+        for (var j = 0; j < fe.length; j++) {
+          fe[j].textContent = c.email;
+          fe[j].setAttribute('href', 'mailto:' + c.email);
+        }
+      }
+      if (c.address !== undefined) {
+        var fa = document.querySelectorAll('.js-footer-address');
+        for (var k = 0; k < fa.length; k++) fa[k].textContent = c.address;
+      }
+      if (c.hours !== undefined) {
+        var fh = document.querySelectorAll('.js-footer-hours');
+        for (var m = 0; m < fh.length; m++) fh[m].textContent = c.hours;
+      }
+    }
+  }
+
+  if (typeof AATX.loadData === 'function') {
+    renderSite(AATX.loadData());
+  }
+
   /* ---------- Mobile navigation ---------- */
-  var header = document.getElementById('site-header');
-  var navToggle = document.getElementById('nav-toggle');
-  var navMenu = document.getElementById('nav-menu');
+  var header = $('site-header');
+  var navToggle = $('nav-toggle');
+  var navMenu = $('nav-menu');
 
   if (navToggle && navMenu) {
     var nav = navMenu.closest('.nav') || navMenu;
@@ -25,24 +149,21 @@
       document.body.classList.toggle('nav-locked', open);
     });
 
-    // Close the menu after choosing a destination
     navMenu.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', closeNav);
     });
 
-    // Close on Escape
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && nav.classList.contains('is-open')) closeNav();
     });
 
-    // Close if the viewport grows back to desktop size
     window.addEventListener('resize', function () {
       if (window.innerWidth > 860) closeNav();
     });
   }
 
   /* ---------- Sticky header shadow + back-to-top visibility ---------- */
-  var backToTop = document.getElementById('back-to-top');
+  var backToTop = $('back-to-top');
 
   var onScroll = function () {
     if (header) header.classList.toggle('is-scrolled', window.scrollY > 8);
@@ -118,17 +239,17 @@
   }
 
   /* ---------- Fabric search / filter ---------- */
-  var searchInput = document.getElementById('fabric-search');
-  var fabricCards = Array.prototype.slice.call(document.querySelectorAll('.fabric-card'));
-  var fabricCount = document.getElementById('fabric-count');
-  var fabricEmpty = document.getElementById('fabric-empty');
+  var searchInput = $('fabric-search');
+  var fabricEmpty = $('fabric-empty');
+  var fabricCountEl = $('fabric-count');
 
-  if (searchInput && fabricCards.length) {
+  if (searchInput) {
     searchInput.addEventListener('input', function () {
       var query = searchInput.value.trim().toLowerCase();
+      var cards = Array.prototype.slice.call(document.querySelectorAll('#fabrics-grid .fabric-card'));
       var visible = 0;
 
-      fabricCards.forEach(function (card) {
+      cards.forEach(function (card) {
         var haystack = (
           (card.getAttribute('data-name') || '') + ' ' + (card.textContent || '')
         ).toLowerCase();
@@ -137,8 +258,8 @@
         if (match) visible += 1;
       });
 
-      if (fabricCount) {
-        fabricCount.textContent = visible + (visible === 1 ? ' fabric' : ' fabrics');
+      if (fabricCountEl) {
+        fabricCountEl.textContent = visible + (visible === 1 ? ' fabric' : ' fabrics');
       }
       if (fabricEmpty) {
         fabricEmpty.classList.toggle('is-visible', visible === 0);
@@ -147,19 +268,30 @@
   }
 
   /* ---------- Contact form ----------
-     The form is client-side only: it validates and shows a confirmation.
-     To receive leads for real, POST the form data here to a backend or a
-     service such as Formspree / Basin / your own API. */
-  var form = document.getElementById('contact-form');
+     Validates client-side, then stores the lead in localStorage
+     where it can be reviewed in the Admin Control Center
+     (admin.html → Leads). To receive leads by email/WhatsApp too,
+     additionally POST `new FormData(form)` to a real endpoint. */
+  var form = $('contact-form');
 
   if (form) {
-    var formMessage = document.getElementById('form-message');
+    var formMessage = $('form-message');
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!form.reportValidity()) return;
 
-      // TODO: send `new FormData(form)` to your backend here.
+      var fd = new FormData(form);
+      if (typeof AATX.addLead === 'function') {
+        AATX.addLead({
+          name: String(fd.get('name') || '').trim(),
+          company: String(fd.get('company') || '').trim(),
+          phone: String(fd.get('phone') || '').trim(),
+          fabrics: String(fd.get('fabrics') || '').trim(),
+          message: String(fd.get('message') || '').trim()
+        });
+      }
+
       form.reset();
       if (formMessage) {
         formMessage.textContent =
@@ -170,6 +302,6 @@
   }
 
   /* ---------- Footer year ---------- */
-  var yearEl = document.getElementById('year');
+  var yearEl = $('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 })();

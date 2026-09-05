@@ -33,7 +33,7 @@
       <p class="topbar__item topbar__item--center">Wholesale only — serving boutiques &amp; manufacturers</p>
       <p class="topbar__item topbar__item--end">
         <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 1 1 9-9 9 9 0 0 1-9 9Zm.75-14.5h-1.5v5.36l3.68 2.19.75-1.3-2.93-1.72V6.5Z"/></svg>
-        Mon – Sat: 10:00 AM – 9:00 PM
+        <span id="js-topbar-hours">Mon – Sat · 10:00 AM – 9:00 PM</span>
       </p>
     </div>
   </div>
@@ -76,12 +76,12 @@
         <div class="hero__content">
           <p class="eyebrow reveal">
             <svg class="icon icon--star" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.9 6.26L21.5 9.3l-4.75 4.4 1.15 6.55L12 17.1l-5.9 3.15 1.15-6.55L2.5 9.3l6.6-1.04L12 2Z"/></svg>
-            Established 2006 · Cairo, Egypt
+            <span id="js-hero-eyebrow">Established 2006 · Cairo, Egypt</span>
           </p>
-          <h1 class="hero__title reveal">
+          <h1 class="hero__title reveal" id="js-hero-title">
             Fine fabrics for <span class="text-red">women's fashion</span>, sold wholesale.
           </h1>
-          <p class="hero__lead reveal">
+          <p class="hero__lead reveal" id="js-hero-lead">
             Al Azhar Tex is an Egyptian wholesale textile house supplying premium women's
             fabrics — Silk 180, Warsaw L, Pirlanta, Rotana and Lexus — to boutiques and
             manufacturers across Egypt and the region.
@@ -100,8 +100,8 @@
         <figure class="hero__media reveal">
           <img src="assets/hero.jpg" alt="Stacked bolts of premium women's fabrics in soft blush, ivory and dusty blue tones" width="720" height="620" />
           <figcaption class="hero__badge">
-            <span class="hero__badge-num">20</span>
-            <span class="hero__badge-label">Years of fine<br />fabric wholesale</span>
+            <span class="hero__badge-num" id="js-hero-badge-num">20</span>
+            <span class="hero__badge-label" id="js-hero-badge-label">Years of fine<br />fabric wholesale</span>
           </figcaption>
         </figure>
       </div>
@@ -198,127 +198,16 @@
           <span class="fabrics__count" id="fabric-count" aria-live="polite">7 fabrics</span>
         </div>
 
-        <div class="fabrics__grid" id="fabrics-grid">
-
-          <article class="fabric-card reveal" data-name="silk 180">
-            <div class="fabric-card__swatch swatch--silk" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Silk 180</h3>
-                <span class="chip chip--red">180 g/m²</span>
-              </div>
-              <p class="fabric-card__type">Signature satin silk</p>
-              <p class="fabric-card__desc">
-                Our flagship. A liquid, lustrous drape with deep gloss — the go-to for evening
-                gowns, formal dresses and premium tailoring.
-              </p>
-              <p class="fabric-card__meta">Best for: eveningwear · formal dresses · abayas</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="warsaw l">
-            <div class="fabric-card__swatch swatch--warsaw" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Warsaw L</h3>
-                <span class="chip chip--blue">Lightweight</span>
-              </div>
-              <p class="fabric-card__type">Airy georgette</p>
-              <p class="fabric-card__desc">
-                Soft, sheer and feather-light with a gentle matte hand. Moves beautifully and
-                resists creasing through the season.
-              </p>
-              <p class="fabric-card__meta">Best for: summer dresses · blouses · scarves</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="pirlanta">
-            <div class="fabric-card__swatch swatch--pirlanta" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Pirlanta</h3>
-                <span class="chip chip--blue">Signature</span>
-              </div>
-              <p class="fabric-card__type">Crisp luxury satin</p>
-              <p class="fabric-card__desc">
-                A glossy, structured satin with body that holds a cut. A staple for tailored
-                feminine lines that need a clean, sharp finish.
-              </p>
-              <p class="fabric-card__meta">Best for: tailored dresses · occasion wear</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="rotana 150">
-            <div class="fabric-card__swatch swatch--rotana150" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Rotana 150</h3>
-                <span class="chip chip--blue">150 g/m²</span>
-              </div>
-              <p class="fabric-card__type">Lightweight satin</p>
-              <p class="fabric-card__desc">
-                Versatile mid-season satin with a soft sheen. An everyday workhorse for
-                high-volume production at wholesale cost.
-              </p>
-              <p class="fabric-card__meta">Best for: ready-to-wear · daily dresses</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="rotana 180">
-            <div class="fabric-card__swatch swatch--rotana180" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Rotana 180</h3>
-                <span class="chip chip--red">180 g/m²</span>
-              </div>
-              <p class="fabric-card__type">Medium satin</p>
-              <p class="fabric-card__desc">
-                Fuller weight, structured drape and a premium hand-feel. Cuts clean and hangs
-                heavy — our best-selling mid-weight line.
-              </p>
-              <p class="fabric-card__meta">Best for: winter collections · formal wear</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="lexus 150">
-            <div class="fabric-card__swatch swatch--lexus150" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Lexus 150</h3>
-                <span class="chip chip--blue">150 g/m²</span>
-              </div>
-              <p class="fabric-card__type">Ultra-soft satin</p>
-              <p class="fabric-card__desc">
-                Smooth, cool and silky with a low-key glow. Comfortable against the skin and
-                easy to sew — a customer favourite for loungewear and abayas.
-              </p>
-              <p class="fabric-card__meta">Best for: abayas · loungewear · lining</p>
-            </div>
-          </article>
-
-          <article class="fabric-card reveal" data-name="lexus 180">
-            <div class="fabric-card__swatch swatch--lexus180" aria-hidden="true"></div>
-            <div class="fabric-card__body">
-              <div class="fabric-card__top">
-                <h3 class="fabric-card__name">Lexus 180</h3>
-                <span class="chip chip--red">180 g/m²</span>
-              </div>
-              <p class="fabric-card__type">Premium heavy satin</p>
-              <p class="fabric-card__desc">
-                The richest in the Lexus line — deep gloss, heavy drape and a luxurious feel.
-                The hero fabric for haute collections and special orders.
-              </p>
-              <p class="fabric-card__meta">Best for: haute couture · bridal · occasions</p>
-            </div>
-          </article>
-
-        </div>
+        <div class="fabrics__grid" id="fabrics-grid"></div>
+        <noscript>
+          <p class="fabrics__noscript">Please enable JavaScript to browse the full fabric catalogue.</p>
+        </noscript>
 
         <p class="fabrics__empty" id="fabric-empty">
           No fabrics match your search — try <strong>silk</strong>, <strong>rotana</strong> or <strong>180</strong>.
         </p>
 
-        <p class="fabrics__note reveal">
+        <p class="fabrics__note reveal" id="js-fabrics-notice">
           …and many more lines in stock. <a href="#contact">Request the full catalogue</a> with
           weights, colour charts and wholesale prices.
         </p>
@@ -439,7 +328,7 @@
               </span>
               <div>
                 <strong>Phone / WhatsApp</strong>
-                <a href="tel:+201001234567">+20 100 123 4567</a>
+                <a href="tel:+201001234567" id="js-contact-phone">+20 100 123 4567</a>
               </div>
             </li>
             <li class="reveal">
@@ -448,7 +337,7 @@
               </span>
               <div>
                 <strong>Email</strong>
-                <a href="mailto:sales@alazhartex.com">sales@alazhartex.com</a>
+                <a href="mailto:sales@alazhartex.com" id="js-contact-email">sales@alazhartex.com</a>
               </div>
             </li>
             <li class="reveal">
@@ -457,7 +346,7 @@
               </span>
               <div>
                 <strong>Location</strong>
-                <span>Cairo, Egypt — by appointment for walk-ins</span>
+                <span id="js-contact-address">Cairo, Egypt — by appointment for walk-ins</span>
               </div>
             </li>
             <li class="reveal">
@@ -466,7 +355,7 @@
               </span>
               <div>
                 <strong>Working hours</strong>
-                <span>Monday – Saturday · 10:00 AM – 9:00 PM</span>
+                <span id="js-contact-hours">Mon – Sat · 10:00 AM – 9:00 PM</span>
               </div>
             </li>
           </ul>
@@ -548,10 +437,10 @@
       <div class="footer__col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="tel:+201001234567">+20 100 123 4567</a></li>
-          <li><a href="mailto:sales@alazhartex.com">sales@alazhartex.com</a></li>
-          <li>Cairo, Egypt</li>
-          <li>Mon – Sat · 10:00 – 21:00</li>
+          <li><a href="tel:+201001234567" class="js-footer-phone">+20 100 123 4567</a></li>
+          <li><a href="mailto:sales@alazhartex.com" class="js-footer-email">sales@alazhartex.com</a></li>
+          <li><span class="js-footer-address">Cairo, Egypt — by appointment for walk-ins</span></li>
+          <li><span class="js-footer-hours">Mon – Sat · 10:00 AM – 9:00 PM</span></li>
         </ul>
       </div>
     </div>
@@ -560,6 +449,7 @@
       <div class="container footer__bar-inner">
         <p>© <span id="year">2026</span> Al Azhar Tex. All rights reserved.</p>
         <p>Owner &amp; Founder: <strong>Shady Anwar</strong> · Established 2006, Cairo, Egypt</p>
+        <a class="footer__admin" href="admin.html">Admin</a>
       </div>
     </div>
   </footer>
@@ -568,6 +458,7 @@
     <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8l-4.6 4.6L5 12l7-7Z"/></svg>
   </button>
 
+  <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

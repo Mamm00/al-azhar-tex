@@ -787,6 +787,12 @@ p {
   font-size: 1rem;
 }
 
+.fabrics__noscript {
+  text-align: center;
+  color: var(--muted);
+  padding: 32px 0;
+}
+
 .fabrics__empty.is-visible {
   display: block;
 }
@@ -1079,6 +1085,17 @@ p {
 
 .footer__bar p {
   margin: 0;
+}
+
+.footer__admin {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--blue);
+  letter-spacing: 0.04em;
+}
+
+.footer__admin:hover {
+  color: #fff;
 }
 
 .footer__bar strong {

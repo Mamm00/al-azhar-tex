@@ -5,8 +5,9 @@
   var AATX = window.AATX || {};
 
   /* =========================================================
-     Render admin-managed data (hero, fabrics, contact, note)
-     Falls back gracefully when the data layer is unavailable.
+     Render admin-managed data (hero, fabrics, contact, brand,
+     SEO, announcement, maintenance). Falls back gracefully
+     when the data layer is unavailable.
      ========================================================= */
 
   function $(id) { return document.getElementById(id); }
@@ -20,11 +21,113 @@
     }
   }
 
+  function telHref(value) {
+    return 'tel:' + String(value || '').replace(/[^\d+]/g, '');
+  }
+
+  /* ---- small colour utilities for brand theming ---- */
+  function clamp255(n) { return Math.max(0, Math.min(255, Math.round(n))); }
+  function hexToRgb(hex) {
+    var h = String(hex || '').replace('#', '');
+    if (h.length === 3) h = h.charAt(0) + h.charAt(0) + h.charAt(1) + h.charAt(1) + h.charAt(2) + h.charAt(2);
+    var m = /^([0-9a-f]{6})$/i.exec(h);
+    if (!m) return null;
+    return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+  }
+  function rgbToHex(rgb) {
+    return '#' + rgb.map(function (v) {
+      return clamp255(v).toString(16).padStart(2, '0');
+    }).join('');
+  }
+  function darken(rgb, f) {
+    return [rgb[0] * f, rgb[1] * f, rgb[2] * f];
+  }
+
+  function renderBrand(data) {
+    if (!data.brand) return;
+
+    // custom logo (data URL) on header, footer and maintenance screens
+    if (data.brand.logo) {
+      var logos = document.querySelectorAll('img.brand__logo, #js-maintenance-logo');
+      for (var i = 0; i < logos.length; i++) logos[i].src = data.brand.logo;
+    }
+
+    // brand colours -> CSS custom properties
+    var colors = data.brand.colors;
+    if (colors) {
+      var root = document.documentElement.style;
+      var p = colors.primary && hexToRgb(colors.primary);
+      if (p) {
+        root.setProperty('--red', colors.primary);
+        root.setProperty('--red-dark', rgbToHex(darken(p, 0.82)));
+      }
+      var b = colors.blue && hexToRgb(colors.blue);
+      if (b) {
+        root.setProperty('--blue', colors.blue);
+        root.setProperty('--blue-mid', rgbToHex(darken(b, 0.62)));
+      }
+      var n = colors.navy && hexToRgb(colors.navy);
+      if (n) {
+        root.setProperty('--navy', colors.navy);
+        root.setProperty('--navy-deep', rgbToHex(darken(n, 0.72)));
+      }
+    }
+  }
+
+  function renderSeo(data) {
+    if (!data.seo) return;
+    if (data.seo.title) document.title = data.seo.title;
+    var metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc && data.seo.description) metaDesc.setAttribute('content', data.seo.description);
+    var ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle && data.seo.title) ogTitle.setAttribute('content', data.seo.title);
+    var ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc && data.seo.description) ogDesc.setAttribute('content', data.seo.description);
+  }
+
+  function renderAnnouncement(data) {
+    var annEl = $('js-announcement');
+    if (!annEl) return;
+    var ann = data.announcement;
+    var show = !!(ann && ann.enabled && ann.text && String(ann.text).trim());
+    var dismissed = false;
+    try { dismissed = sessionStorage.getItem('aatz_announce_dismissed') === '1'; } catch (e) { /* ignore */ }
+    annEl.hidden = !(show && !dismissed);
+    if (show) {
+      var textEl = $('js-announcement-text');
+      if (textEl) textEl.textContent = String(ann.text).trim();
+      var closeBtn = $('js-announcement-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+          annEl.hidden = true;
+          try { sessionStorage.setItem('aatz_announce_dismissed', '1'); } catch (e) { /* ignore */ }
+        });
+      }
+    }
+  }
+
+  function renderMaintenance(data) {
+    var mEl = $('js-maintenance');
+    if (!mEl) return;
+    var m = data.maintenance;
+    mEl.hidden = !(m && m.enabled);
+    if (m && m.enabled) {
+      var msg = $('js-maintenance-message');
+      if (msg && m.message) msg.textContent = String(m.message);
+      var phone = $('js-maintenance-phone');
+      if (phone && data.contact) {
+        phone.textContent = data.contact.phoneDisplay;
+        phone.setAttribute('href', telHref(data.contact.phoneHref || data.contact.phoneDisplay));
+      }
+    }
+  }
+
   function renderFabrics(fabrics) {
     var grid = $('fabrics-grid');
     if (!grid) return;
 
-    var list = Array.isArray(fabrics) ? fabrics : [];
+    var list = (Array.isArray(fabrics) ? fabrics : [])
+      .filter(function (f) { return f && !f.hidden; });
 
     grid.innerHTML = list.map(function (f) {
       var name = String(f.name || 'Untitled fabric');
@@ -61,6 +164,10 @@
   function renderSite(data) {
     if (!data || typeof data !== 'object') return;
 
+    // Brand (logo + colours) first, so overlays can use the custom logo
+    renderBrand(data);
+    renderSeo(data);
+
     // Hero
     if (data.hero) {
       if (data.hero.eyebrow !== undefined) { var e = $('js-hero-eyebrow'); if (e) e.textContent = data.hero.eyebrow; }
@@ -73,7 +180,7 @@
     // Catalogue note
     setHtml($('js-fabrics-notice'), data.notice);
 
-    // Fabrics
+    // Fabrics (hidden lines filtered out)
     renderFabrics(data.fabrics);
 
     // Contact (main + top bar + footer)
@@ -82,7 +189,7 @@
       var phone = $('js-contact-phone');
       if (phone && c.phoneDisplay !== undefined) {
         phone.textContent = c.phoneDisplay;
-        phone.setAttribute('href', 'tel:' + String(c.phoneHref || c.phoneDisplay).replace(/[^\d+]/g, ''));
+        phone.setAttribute('href', telHref(c.phoneHref || c.phoneDisplay));
       }
       var email = $('js-contact-email');
       if (email && c.email !== undefined) {
@@ -101,7 +208,7 @@
         var fp = document.querySelectorAll('.js-footer-phone');
         for (var i = 0; i < fp.length; i++) {
           fp[i].textContent = c.phoneDisplay;
-          fp[i].setAttribute('href', 'tel:' + String(c.phoneHref || c.phoneDisplay).replace(/[^\d+]/g, ''));
+          fp[i].setAttribute('href', telHref(c.phoneHref || c.phoneDisplay));
         }
       }
       if (c.email !== undefined) {
@@ -120,6 +227,10 @@
         for (var m = 0; m < fh.length; m++) fh[m].textContent = c.hours;
       }
     }
+
+    // Announcement bar + maintenance overlay (last, on top of everything)
+    renderAnnouncement(data);
+    renderMaintenance(data);
   }
 
   if (typeof AATX.loadData === 'function') {

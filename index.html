@@ -38,6 +38,14 @@
     </div>
   </div>
 
+  <!-- ======= Announcement bar (admin-controlled) ======= -->
+  <div class="announce" id="js-announcement" hidden>
+    <div class="container announce__inner">
+      <span class="announce__text" id="js-announcement-text"></span>
+      <button class="announce__close" id="js-announcement-close" type="button" aria-label="Dismiss announcement">✕</button>
+    </div>
+  </div>
+
   <!-- ======= Header ======= -->
   <header class="header" id="site-header">
     <div class="container header__inner">
@@ -457,6 +465,17 @@
   <button class="back-to-top" id="back-to-top" aria-label="Back to top">
     <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8l-4.6 4.6L5 12l7-7Z"/></svg>
   </button>
+
+  <!-- ======= Maintenance overlay (admin-controlled) ======= -->
+  <div class="maintenance" id="js-maintenance" hidden>
+    <div class="maintenance__box">
+      <img class="maintenance__logo" id="js-maintenance-logo" src="assets/logo.jpg" alt="Al Azhar Tex logo" width="88" height="88" />
+      <h2 class="maintenance__title">Al Azhar <span class="text-red">Tex</span></h2>
+      <p class="maintenance__msg" id="js-maintenance-message">We’ll be back shortly — thank you for your patience.</p>
+      <p class="maintenance__contact">Wholesale desk: <a id="js-maintenance-phone" href="tel:+201001234567">+20 100 123 4567</a></p>
+      <p class="maintenance__fine">Fine Fabrics · Wholesale · Est. 2006</p>
+    </div>
+  </div>
 
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>

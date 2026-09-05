@@ -5,8 +5,10 @@
 
    Storage: browser localStorage (per-browser).
    The public site renders hero text, fabrics, contact
-   details and the catalogue note from this data, falling
-   back to the defaults below when nothing is stored yet.
+   details, brand (logo + colours), SEO meta, the
+   announcement bar and maintenance mode from this data,
+   falling back to the defaults below when nothing is
+   stored yet.
    ========================================================= */
 (function () {
   'use strict';
@@ -14,6 +16,7 @@
   var DATA_KEY = 'aatz_site_data_v1';
   var LEADS_KEY = 'aatz_leads_v1';
   var PIN_KEY = 'aatz_admin_pin_v1';
+  var LOG_KEY = 'aatz_log_v1';
   var DEFAULT_PIN = '2006';
 
   var DEFAULTS = {
@@ -78,7 +81,7 @@
         chipStyle: 'blue',
         swatch: 'lexus150',
         type: 'Ultra-soft satin',
-        desc: 'Smooth, cool and silky with a low-key glow. Comfortant against the skin and easy to sew — a customer favourite for loungewear and abayas.',
+        desc: 'Smooth, cool and silky with a low-key glow. Comfortable against the skin and easy to sew — a customer favourite for loungewear and abayas.',
         bestFor: 'abayas · loungewear · lining'
       },
       {
@@ -97,6 +100,26 @@
       email: 'sales@alazhartex.com',
       address: 'Cairo, Egypt — by appointment for walk-ins',
       hours: 'Mon – Sat · 10:00 AM – 9:00 PM'
+    },
+    brand: {
+      logo: null, // data URL; null => use assets/logo.jpg
+      colors: {
+        primary: '#c8102e',
+        blue: '#8fc1e3',
+        navy: '#14304d'
+      }
+    },
+    seo: {
+      title: 'Al Azhar Tex — Fine Fabrics | Wholesale Women\'s Fabrics in Egypt',
+      description: 'Al Azhar Tex is an Egyptian wholesale textile company established in 2006 by Shady Anwar, specialising in premium women\'s fabrics: Silk 180, Warsaw L, Pirlanta, Rotana 150 & 180, Lexus 150 & 180 and more.'
+    },
+    maintenance: {
+      enabled: false,
+      message: 'We\u2019ll be back shortly — thank you for your patience.'
+    },
+    announcement: {
+      enabled: false,
+      text: ''
     }
   };
 
@@ -112,6 +135,16 @@
     try { window.localStorage.setItem(key, value); } catch (e) { /* storage unavailable */ }
   }
 
+  /* merge plain objects one level deep */
+  function mergeOne(base, over) {
+    if (over && typeof over === 'object' && !Array.isArray(over)) {
+      for (var k in over) {
+        if (over.hasOwnProperty(k)) base[k] = over[k];
+      }
+    }
+    return base;
+  }
+
   /* ---- Site data ---- */
 
   function loadData() {
@@ -121,10 +154,17 @@
     try {
       var parsed = JSON.parse(raw);
       if (parsed && typeof parsed === 'object') {
-        ['hero', 'contact', 'fabrics'].forEach(function (k) {
-          if (parsed[k] !== undefined) base[k] = parsed[k];
-        });
+        if (parsed.hero !== undefined) base.hero = mergeOne(base.hero, parsed.hero);
+        if (parsed.contact !== undefined) base.contact = mergeOne(base.contact, parsed.contact);
+        if (parsed.brand !== undefined) {
+          base.brand = mergeOne(base.brand, parsed.brand);
+          base.brand.colors = mergeOne(base.brand.colors, parsed.brand.colors || {});
+        }
+        if (parsed.seo !== undefined) base.seo = mergeOne(base.seo, parsed.seo);
+        if (parsed.maintenance !== undefined) base.maintenance = mergeOne(base.maintenance, parsed.maintenance);
+        if (parsed.announcement !== undefined) base.announcement = mergeOne(base.announcement, parsed.announcement);
         if (typeof parsed.notice === 'string') base.notice = parsed.notice;
+        if (Array.isArray(parsed.fabrics)) base.fabrics = parsed.fabrics;
         base.updated = parsed.updated || null;
       }
     } catch (e) { /* corrupt storage — fall back to defaults */ }
@@ -188,6 +228,28 @@
     return lead;
   }
 
+  /* ---- Admin activity log (newest first, capped) ---- */
+
+  function log(action, detail) {
+    try {
+      var raw = read(LOG_KEY);
+      var entries = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(entries)) entries = [];
+      entries.unshift({ t: new Date().toISOString(), action: action, detail: detail || '' });
+      if (entries.length > 50) entries.length = 50;
+      write(LOG_KEY, JSON.stringify(entries));
+    } catch (e) { /* ignore */ }
+  }
+
+  function getLog() {
+    var raw = read(LOG_KEY);
+    if (!raw) return [];
+    try {
+      var arr = JSON.parse(raw);
+      return Array.isArray(arr) ? arr : [];
+    } catch (e) { return []; }
+  }
+
   /* ---- Admin PIN ---- */
 
   function getPin() {
@@ -207,6 +269,8 @@
     loadLeads: loadLeads,
     saveLeads: saveLeads,
     addLead: addLead,
+    log: log,
+    getLog: getLog,
     getPin: getPin,
     setPin: setPin
   };

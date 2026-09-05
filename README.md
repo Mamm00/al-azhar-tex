@@ -24,15 +24,26 @@ Any static file server works (GitHub Pages, Netlify, nginx, …).
 
 - Open `/admin.html` — default PIN is **`2006`** (change it in Settings).
 - Sections:
-  - **Dashboard** — lead/fabric counts, last-updated time.
-  - **Fabrics** — add, edit, delete, and reorder the fabric catalogue.
-  - **Site content** — hero eyebrow, headline, lead text, badge, catalogue note
-    (limited HTML allowed: `span.text-red`, `a`, `br`).
+  - **Dashboard** — lead/fabric counts, maintenance-mode switch, 14-day
+    leads chart, recent admin activity log, latest leads.
+  - **Fabrics** — add, edit, delete, **reorder (↑/↓)** and **hide/show**
+    individual fabrics (hidden lines stay in the catalogue but don't appear
+    on the site).
+  - **Site content** — hero eyebrow, headline, lead text, badge, catalogue
+    note (limited HTML allowed: `span.text-red`, `a`, `br`), **SEO** (page
+    title + meta description / Open Graph), and the **announcement bar**
+    shown under the header.
+  - **Brand** — **upload a custom logo** (auto-resized, applied to header,
+    footer and the maintenance screen) and **re-theme the site colours**
+    (primary, accent, navy).
   - **Contact & hours** — phone, email, address, working hours (updates the
     contact section, top bar and footer at once).
-  - **Leads** — view, mark read, delete, and export (CSV) submissions from the
-    public contact form.
-  - **Settings** — change PIN, export all content as JSON, reset to defaults.
+  - **Leads** — view, mark read, delete, **WhatsApp shortcut** per lead,
+    and export (CSV) submissions from the public contact form.
+  - **Settings** — change PIN, **export/import JSON snapshots** (backup &
+    restore across devices), reset to defaults.
+- **Maintenance mode** (dashboard): swaps the public site for a
+  "we'll be back" screen while keeping the wholesale phone number visible.
 
 ### Important: how storage works
 

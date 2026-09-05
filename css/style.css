@@ -1012,6 +1012,111 @@ p {
   opacity: 0.6;
 }
 
+/* ---------- Announcement bar ---------- */
+.announce {
+  background: var(--blue-soft);
+  border-bottom: 1px solid #d3e4f2;
+  color: var(--navy);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.announce__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.announce__text {
+  flex: 1;
+}
+
+.announce__close {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(20, 48, 77, 0.2);
+  background: transparent;
+  color: var(--navy);
+  font-size: 0.7rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.announce__close:hover {
+  background: var(--navy);
+  color: #fff;
+}
+
+/* ---------- Maintenance overlay ---------- */
+.maintenance {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(800px 500px at 80% -10%, rgba(143, 193, 227, 0.25), transparent 60%),
+    var(--navy-deep);
+}
+
+.maintenance__box {
+  max-width: 480px;
+  text-align: center;
+}
+
+.maintenance__logo {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  margin: 0 auto 20px;
+  background: #fff;
+}
+
+.maintenance__title {
+  color: #fff;
+  font-size: 2.2rem;
+  margin-bottom: 0.4em;
+}
+
+.maintenance__title .text-red {
+  color: var(--blue);
+}
+
+.maintenance__msg {
+  color: #c6d6e4;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+
+.maintenance__contact {
+  color: #9db4c9;
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+
+.maintenance__contact a {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.maintenance__fine {
+  color: #6d87a1;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 /* ---------- Footer ---------- */
 .footer {
   background: var(--navy-deep);

@@ -747,6 +747,330 @@
   transform: translate(-50%, 0);
 }
 
+/* ---------- Maintenance switch ---------- */
+.maint-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: var(--admin-card);
+  border: 1px solid var(--admin-line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 8px rgba(20, 48, 77, 0.05);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.maint-card.is-on {
+  border-color: var(--admin-red);
+  background: rgba(200, 16, 46, 0.05);
+}
+
+.maint-card__info strong {
+  display: block;
+  color: var(--admin-navy);
+  font-size: 0.98rem;
+  margin-bottom: 2px;
+}
+
+.maint-card__info p {
+  margin: 0;
+  color: var(--admin-muted);
+  font-size: 0.87rem;
+  max-width: 640px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  flex: none;
+  cursor: pointer;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.switch__track {
+  display: block;
+  width: 56px;
+  height: 30px;
+  border-radius: 999px;
+  background: #c9d4de;
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.switch__track::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(4, 16, 28, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.switch input:checked + .switch__track {
+  background: var(--admin-red);
+}
+
+.switch input:checked + .switch__track::after {
+  transform: translateX(26px);
+}
+
+.switch input:focus-visible + .switch__track {
+  outline: 3px solid rgba(74, 134, 197, 0.4);
+}
+
+/* ---------- Dashboard extras ---------- */
+.dash-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.dash-card {
+  background: var(--admin-card);
+  border: 1px solid var(--admin-line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 8px rgba(20, 48, 77, 0.05);
+}
+
+.dash-card__title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--admin-muted);
+  margin: 0 0 14px;
+}
+
+.dash-card__foot {
+  margin: 12px 0 0;
+  font-size: 0.82rem;
+  color: var(--admin-muted);
+}
+
+.chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  height: 96px;
+  border-bottom: 1px solid var(--admin-line);
+  padding-bottom: 1px;
+}
+
+.chart__bar-wrap {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chart__bar {
+  width: 100%;
+  background: linear-gradient(180deg, #6fa5d6, var(--admin-blue));
+  border-radius: 4px 4px 0 0;
+  min-height: 0;
+  transition: opacity 0.15s ease;
+}
+
+.chart__bar-wrap:hover .chart__bar {
+  opacity: 0.75;
+}
+
+.activity,
+.recent {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+}
+
+.activity li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.activity__time {
+  flex: none;
+  font-size: 0.75rem;
+  color: var(--admin-muted);
+  min-width: 118px;
+}
+
+.activity__text {
+  color: var(--admin-ink);
+}
+
+.activity__empty {
+  color: var(--admin-muted);
+  font-style: italic;
+}
+
+.recent li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.recent li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.recent li strong {
+  color: var(--admin-navy);
+}
+
+.recent li span {
+  color: var(--admin-muted);
+}
+
+/* ---------- Brand panel ---------- */
+.brand-logo-row {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.brand-logo-preview {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--admin-line);
+  background: #fff;
+  flex: none;
+}
+
+.brand-logo-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 260px;
+}
+
+.brand-logo-actions .panel__hint {
+  margin-top: 2px;
+}
+
+.btn--file {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.color-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.color-field {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--admin-navy);
+}
+
+.color-field input[type="color"] {
+  display: block;
+  width: 100%;
+  height: 52px;
+  margin-top: 8px;
+  padding: 4px;
+  border: 1px solid var(--admin-line);
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.color-field code {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--admin-muted);
+  background: #eef2f6;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--admin-navy);
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.check-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--admin-red);
+}
+
+/* ---------- Fabric row: order / visibility ---------- */
+.fab-hidden-chip {
+  display: inline-block;
+  background: rgba(20, 48, 77, 0.08);
+  color: var(--admin-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.fab-item.is-hidden-fab .fab-item__info {
+  opacity: 0.6;
+}
+
+.icon-btn--active {
+  background: var(--admin-blue-soft);
+  color: var(--admin-blue);
+  border-color: var(--admin-blue);
+}
+
+.icon-btn--wa {
+  border-color: #1fa855;
+  color: #157a3c;
+  font-size: 0.72rem;
+  font-weight: 800;
+  width: auto;
+  padding: 0 8px;
+}
+
+.icon-btn--wa:hover {
+  background: rgba(31, 168, 85, 0.1);
+  color: #157a3c;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 980px) {
   .shell {
@@ -787,12 +1111,18 @@
     padding: 20px 18px 50px;
   }
 
-  .stat-grid {
+  .stat-grid,
+  .dash-grid,
+  .color-row {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .activity__time {
+    min-width: 0;
   }
 
   .fab-item {

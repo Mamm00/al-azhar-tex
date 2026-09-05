@@ -33,6 +33,12 @@
   box-sizing: border-box;
 }
 
+/* Guard: the `hidden` attribute must always win over any
+   component that sets its own display value (e.g. .maintenance). */
+[hidden] {
+  display: none !important;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 96px;

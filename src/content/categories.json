@@ -1,0 +1,9 @@
+[
+  { "slug": "womens-apparel", "name": { "ar": "ملابس حريمي", "en": "Women's Apparel" } },
+  { "slug": "mens-apparel", "name": { "ar": "ملابس رجالي", "en": "Men's Apparel" } },
+  { "slug": "lace-tulle", "name": { "ar": "دانتيل وتل", "en": "Lace & Tulle" } },
+  { "slug": "jersey-knit", "name": { "ar": "جيرسيه وتريكو", "en": "Jersey & Knit" } },
+  { "slug": "shirting", "name": { "ar": "أقمشة قمصان", "en": "Shirting" } },
+  { "slug": "linings", "name": { "ar": "بطانات", "en": "Linings" } },
+  { "slug": "surplus", "name": { "ar": "بواقي وتصفيات", "en": "Surplus" } }
+]

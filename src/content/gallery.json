@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "image": "/images/gallery-frontage-1.webp",
+    "alt": { "ar": "واجهة معرض الأزهر تكس الزراعة الزقازيق", "en": "Al Azhar Tex gallery frontage Ziraa Zagazig" }
+  },
+  "floorImages": ["/images/gallery-floor-1.webp", "/images/gallery-floor-2.webp", "/images/gallery-floor-3.webp"],
+  "hours": "TBD",
+  "address": {
+    "ar": "مصر، الشرقية، الزقازيق، الزراعة، بعد موقف أبو حماد — أمام موقف أبو حماد.",
+    "en": "Al Azhar Tex Gallery, Ziraa, Zagazig, Sharkia, Egypt — opposite Abu Hammad car station."
+  },
+  "mapUrl": "https://www.google.com/maps/search/?api=1&query=Al+Azhar+Tex+Zagazig",
+  "parkingNote": {
+    "ar": "يتوفر ركن سيارات أمام المعرض وفي الشوارع الجانبية.",
+    "en": "Parking available in front of the gallery and side streets."
+  }
+}

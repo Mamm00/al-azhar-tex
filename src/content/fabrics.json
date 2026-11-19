@@ -1,0 +1,3902 @@
+[
+  {
+    "slug": "chiffon-breeze-a-101",
+    "code": "ATX-W001",
+    "name": {
+      "ar": "Chiffon Breeze نسائي",
+      "en": "Chiffon Breeze"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "viscose chiffon",
+    "gsm": 45,
+    "width": 150,
+    "construction": "chiffon",
+    "finish": "premium calendered",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 2573,
+    "pricePerLotWholesale": 18137,
+    "lotId": "W-0001",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/chiffon-breeze-a-101-hero-1.webp",
+        "alt": "Chiffon Breeze hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/chiffon-breeze-a-101-macro-1.webp",
+        "alt": "Chiffon Breeze macro weave detail grade A",
+        "source": "photo",
+        "seed": 101
+      }
+    ],
+    "alternatives": [
+      "satin-charmeuse-c-149",
+      "jersey-soft-a-105"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 71,
+      "drape": 61,
+      "breathability": 76
+    }
+  },
+  {
+    "slug": "crepe-georgette-a-102",
+    "code": "ATX-W002",
+    "name": {
+      "ar": "Crepe Georgette نسائي",
+      "en": "Crepe Georgette"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "poly crepe",
+    "gsm": 85,
+    "width": 160,
+    "construction": "crepe",
+    "finish": "premium calendered",
+    "availability": "out-of-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 2646,
+    "pricePerLotWholesale": 18274,
+    "lotId": "W-0002",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/crepe-georgette-a-102-hero-1.webp",
+        "alt": "Crepe Georgette hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/crepe-georgette-a-102-macro-1.webp",
+        "alt": "Crepe Georgette macro weave detail grade A",
+        "source": "photo",
+        "seed": 102
+      }
+    ],
+    "alternatives": [
+      "voile-swiss-c-150",
+      "scuba-form-a-106"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 72,
+      "drape": 62,
+      "breathability": 77
+    }
+  },
+  {
+    "slug": "satin-lumiere-a-103",
+    "code": "ATX-W003",
+    "name": {
+      "ar": "Satin Lumiere نسائي",
+      "en": "Satin Lumiere"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "satin viscose",
+    "gsm": 110,
+    "width": 140,
+    "construction": "satin",
+    "finish": "premium calendered",
+    "availability": "in-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 2719,
+    "pricePerLotWholesale": 18411,
+    "lotId": "W-0003",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/satin-lumiere-a-103-hero-1.webp",
+        "alt": "Satin Lumiere hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/satin-lumiere-a-103-macro-1.webp",
+        "alt": "Satin Lumiere macro weave detail grade A",
+        "source": "photo",
+        "seed": 103
+      }
+    ],
+    "alternatives": [
+      "jersey-interlock-c-151",
+      "lace-bloom-a-107"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 73,
+      "drape": 63,
+      "breathability": 78
+    }
+  },
+  {
+    "slug": "cotton-voile-dawn-a-104",
+    "code": "ATX-W004",
+    "name": {
+      "ar": "Cotton Voile Dawn نسائي",
+      "en": "Cotton Voile Dawn"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "cotton voile",
+    "gsm": 70,
+    "width": 150,
+    "construction": "voile",
+    "finish": "premium calendered",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 2792,
+    "pricePerLotWholesale": 18548,
+    "lotId": "W-0004",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/cotton-voile-dawn-a-104-hero-1.webp",
+        "alt": "Cotton Voile Dawn hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/cotton-voile-dawn-a-104-macro-1.webp",
+        "alt": "Cotton Voile Dawn macro weave detail grade A",
+        "source": "photo",
+        "seed": 104
+      }
+    ],
+    "alternatives": [
+      "scuba-ponte-c-152",
+      "tulle-whisper-a-108"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 74,
+      "drape": 64,
+      "breathability": 79
+    }
+  },
+  {
+    "slug": "jersey-soft-a-105",
+    "code": "ATX-W005",
+    "name": {
+      "ar": "Jersey Soft نسائي",
+      "en": "Jersey Soft"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "cotton lycra jersey",
+    "gsm": 180,
+    "width": 160,
+    "construction": "jersey",
+    "finish": "premium calendered",
+    "availability": "out-of-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 2865,
+    "pricePerLotWholesale": 18685,
+    "lotId": "W-0005",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/jersey-soft-a-105-hero-1.webp",
+        "alt": "Jersey Soft hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/jersey-soft-a-105-macro-1.webp",
+        "alt": "Jersey Soft macro weave detail grade A",
+        "source": "photo",
+        "seed": 105
+      }
+    ],
+    "alternatives": [
+      "chiffon-breeze-a-101",
+      "organza-air-a-109"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 75,
+      "drape": 65,
+      "breathability": 80
+    }
+  },
+  {
+    "slug": "scuba-form-a-106",
+    "code": "ATX-W006",
+    "name": {
+      "ar": "Scuba Form نسائي",
+      "en": "Scuba Form"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "scuba crepe",
+    "gsm": 260,
+    "width": 140,
+    "construction": "scuba",
+    "finish": "premium calendered",
+    "availability": "in-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 2938,
+    "pricePerLotWholesale": 18822,
+    "lotId": "W-0006",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/scuba-form-a-106-hero-1.webp",
+        "alt": "Scuba Form hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/scuba-form-a-106-macro-1.webp",
+        "alt": "Scuba Form macro weave detail grade A",
+        "source": "photo",
+        "seed": 106
+      }
+    ],
+    "alternatives": [
+      "crepe-georgette-a-102",
+      "brocade-royale-a-110"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 76,
+      "drape": 66,
+      "breathability": 81
+    }
+  },
+  {
+    "slug": "lace-bloom-a-107",
+    "code": "ATX-W007",
+    "name": {
+      "ar": "Lace Bloom نسائي",
+      "en": "Lace Bloom"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "raschel lace",
+    "gsm": 95,
+    "width": 150,
+    "construction": "lace",
+    "finish": "premium calendered",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 18959,
+    "lotId": "W-0007",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/lace-bloom-a-107-hero-1.webp",
+        "alt": "Lace Bloom hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/lace-bloom-a-107-macro-1.webp",
+        "alt": "Lace Bloom macro weave detail grade A",
+        "source": "photo",
+        "seed": 107
+      }
+    ],
+    "alternatives": [
+      "satin-lumiere-a-103",
+      "viscose-crepe-flow-a-111"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 77,
+      "drape": 67,
+      "breathability": 82
+    }
+  },
+  {
+    "slug": "tulle-whisper-a-108",
+    "code": "ATX-W008",
+    "name": {
+      "ar": "Tulle Whisper نسائي",
+      "en": "Tulle Whisper"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "tulle net",
+    "gsm": 30,
+    "width": 160,
+    "construction": "tulle",
+    "finish": "premium calendered",
+    "availability": "out-of-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 3084,
+    "pricePerLotWholesale": 19096,
+    "lotId": "W-0008",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/tulle-whisper-a-108-hero-1.webp",
+        "alt": "Tulle Whisper hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/tulle-whisper-a-108-macro-1.webp",
+        "alt": "Tulle Whisper macro weave detail grade A",
+        "source": "photo",
+        "seed": 108
+      }
+    ],
+    "alternatives": [
+      "cotton-voile-dawn-a-104",
+      "chiffon-silk-veil-a-112"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 78,
+      "drape": 68,
+      "breathability": 83
+    }
+  },
+  {
+    "slug": "organza-air-a-109",
+    "code": "ATX-W009",
+    "name": {
+      "ar": "Organza Air نسائي",
+      "en": "Organza Air"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "organza",
+    "gsm": 40,
+    "width": 140,
+    "construction": "organza",
+    "finish": "premium calendered",
+    "availability": "in-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 3157,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "W-0009",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/organza-air-a-109-hero-1.webp",
+        "alt": "Organza Air hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/organza-air-a-109-macro-1.webp",
+        "alt": "Organza Air macro weave detail grade A",
+        "source": "photo",
+        "seed": 109
+      }
+    ],
+    "alternatives": [
+      "jersey-soft-a-105",
+      "crepe-satin-luxe-b-121"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 79,
+      "drape": 69,
+      "breathability": 84
+    }
+  },
+  {
+    "slug": "brocade-royale-a-110",
+    "code": "ATX-W010",
+    "name": {
+      "ar": "Brocade Royale نسائي",
+      "en": "Brocade Royale"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "brocade jacquard",
+    "gsm": 210,
+    "width": 150,
+    "construction": "brocade",
+    "finish": "premium calendered",
+    "availability": "low-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 3230,
+    "pricePerLotWholesale": 19370,
+    "lotId": "W-0010",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/brocade-royale-a-110-hero-1.webp",
+        "alt": "Brocade Royale hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/brocade-royale-a-110-macro-1.webp",
+        "alt": "Brocade Royale macro weave detail grade A",
+        "source": "photo",
+        "seed": 110
+      }
+    ],
+    "alternatives": [
+      "scuba-form-a-106",
+      "voile-cotton-light-b-122"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 80,
+      "drape": 70,
+      "breathability": 85
+    }
+  },
+  {
+    "slug": "viscose-crepe-flow-a-111",
+    "code": "ATX-W011",
+    "name": {
+      "ar": "Viscose Crepe Flow نسائي",
+      "en": "Viscose Crepe Flow"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "lining poly",
+    "gsm": 60,
+    "width": 160,
+    "construction": "lining",
+    "finish": "premium calendered",
+    "availability": "out-of-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 3303,
+    "pricePerLotWholesale": 19507,
+    "lotId": "W-0011",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/viscose-crepe-flow-a-111-hero-1.webp",
+        "alt": "Viscose Crepe Flow hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/viscose-crepe-flow-a-111-macro-1.webp",
+        "alt": "Viscose Crepe Flow macro weave detail grade A",
+        "source": "photo",
+        "seed": 111
+      }
+    ],
+    "alternatives": [
+      "lace-bloom-a-107",
+      "jersey-stretch-b-123"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 81,
+      "drape": 71,
+      "breathability": 86
+    }
+  },
+  {
+    "slug": "chiffon-silk-veil-a-112",
+    "code": "ATX-W012",
+    "name": {
+      "ar": "Chiffon Silk Veil نسائي",
+      "en": "Chiffon Silk Veil"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "viscose chiffon",
+    "gsm": 45,
+    "width": 140,
+    "construction": "chiffon",
+    "finish": "premium calendered",
+    "availability": "in-stock",
+    "moqM": 50,
+    "pricePerMetreRetail": 3376,
+    "pricePerLotWholesale": 19644,
+    "lotId": "W-0012",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/chiffon-silk-veil-a-112-hero-1.webp",
+        "alt": "Chiffon Silk Veil hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/chiffon-silk-veil-a-112-macro-1.webp",
+        "alt": "Chiffon Silk Veil macro weave detail grade A",
+        "source": "photo",
+        "seed": 112
+      }
+    ],
+    "alternatives": [
+      "tulle-whisper-a-108",
+      "scuba-tech-b-124"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى: نسيج محكم وملمس ناعم.",
+      "en": "First grade: tight weave, premium hand."
+    },
+    "bench": {
+      "weight": 82,
+      "drape": 72,
+      "breathability": 87
+    }
+  },
+  {
+    "slug": "poplin-classic-a-113",
+    "code": "ATX-M013",
+    "name": {
+      "ar": "Poplin Classic رجالي",
+      "en": "Poplin Classic"
+    },
+    "line": "men",
+    "category": "Men's Apparel",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "cotton poplin",
+    "gsm": 120,
+    "width": 155,
+    "construction": "poplin",
+    "finish": "premium pressed",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 3089,
+    "pricePerLotWholesale": 22151,
+    "lotId": "M-0013",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/poplin-classic-a-113-hero-1.webp",
+        "alt": "Poplin Classic hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/poplin-classic-a-113-macro-1.webp",
+        "alt": "Poplin Classic macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 213
+      }
+    ],
+    "alternatives": [
+      "linen-twill-blend-c-159",
+      "trouser-weight-executive-a-119"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 81,
+      "drape": 51,
+      "breathability": 66
+    }
+  },
+  {
+    "slug": "oxford-blue-a-114",
+    "code": "ATX-M014",
+    "name": {
+      "ar": "Oxford Blue رجالي",
+      "en": "Oxford Blue"
+    },
+    "line": "men",
+    "category": "Shirting",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "oxford weave",
+    "gsm": 140,
+    "width": 160,
+    "construction": "oxford",
+    "finish": "premium pressed",
+    "availability": "out-of-stock",
+    "moqM": 60,
+    "pricePerMetreRetail": 3178,
+    "pricePerLotWholesale": 22302,
+    "lotId": "M-0014",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/oxford-blue-a-114-hero-1.webp",
+        "alt": "Oxford Blue hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/oxford-blue-a-114-macro-1.webp",
+        "alt": "Oxford Blue macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 214
+      }
+    ],
+    "alternatives": [
+      "worsted-cool-wool-c-160",
+      "shirting-oxford-a-120"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 82,
+      "drape": 52,
+      "breathability": 67
+    }
+  },
+  {
+    "slug": "twill-cord-a-115",
+    "code": "ATX-M015",
+    "name": {
+      "ar": "Twill Cord رجالي",
+      "en": "Twill Cord"
+    },
+    "line": "men",
+    "category": "Jersey & Knit",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "twill cotton",
+    "gsm": 160,
+    "width": 150,
+    "construction": "twill",
+    "finish": "premium pressed",
+    "availability": "in-stock",
+    "moqM": 60,
+    "pricePerMetreRetail": 3267,
+    "pricePerLotWholesale": 22453,
+    "lotId": "M-0015",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/twill-cord-a-115-hero-1.webp",
+        "alt": "Twill Cord hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/twill-cord-a-115-macro-1.webp",
+        "alt": "Twill Cord macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 215
+      }
+    ],
+    "alternatives": [
+      "poplin-classic-a-113",
+      "suiting-worsted-b-133"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 83,
+      "drape": 53,
+      "breathability": 68
+    }
+  },
+  {
+    "slug": "gabardine-tailor-a-116",
+    "code": "ATX-M016",
+    "name": {
+      "ar": "Gabardine Tailor رجالي",
+      "en": "Gabardine Tailor"
+    },
+    "line": "men",
+    "category": "Linings",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "gabardine wool blend",
+    "gsm": 240,
+    "width": 155,
+    "construction": "gabardine",
+    "finish": "premium pressed",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 3356,
+    "pricePerLotWholesale": 22604,
+    "lotId": "M-0016",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/gabardine-tailor-a-116-hero-1.webp",
+        "alt": "Gabardine Tailor hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/gabardine-tailor-a-116-macro-1.webp",
+        "alt": "Gabardine Tailor macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 216
+      }
+    ],
+    "alternatives": [
+      "oxford-blue-a-114",
+      "poplin-stretch-b-134"
+    ],
+    "featured": true,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 84,
+      "drape": 54,
+      "breathability": 69
+    }
+  },
+  {
+    "slug": "linen-blend-cool-a-117",
+    "code": "ATX-M017",
+    "name": {
+      "ar": "Linen Blend Cool رجالي",
+      "en": "Linen Blend Cool"
+    },
+    "line": "men",
+    "category": "Surplus",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "linen blend",
+    "gsm": 150,
+    "width": 160,
+    "construction": "plain",
+    "finish": "premium pressed",
+    "availability": "out-of-stock",
+    "moqM": 60,
+    "pricePerMetreRetail": 3445,
+    "pricePerLotWholesale": 22755,
+    "lotId": "M-0017",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/linen-blend-cool-a-117-hero-1.webp",
+        "alt": "Linen Blend Cool hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/linen-blend-cool-a-117-macro-1.webp",
+        "alt": "Linen Blend Cool macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 217
+      }
+    ],
+    "alternatives": [
+      "twill-cord-a-115",
+      "oxford-stripe-b-135"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 85,
+      "drape": 55,
+      "breathability": 70
+    }
+  },
+  {
+    "slug": "worsted-blend-urban-a-118",
+    "code": "ATX-M018",
+    "name": {
+      "ar": "Worsted Blend Urban رجالي",
+      "en": "Worsted Blend Urban"
+    },
+    "line": "men",
+    "category": "Men's Apparel",
+    "grade": "A",
+    "saleMode": "wholesale",
+    "composition": "worsted blend",
+    "gsm": 280,
+    "width": 150,
+    "construction": "twill",
+    "finish": "premium pressed",
+    "availability": "in-stock",
+    "moqM": 60,
+    "pricePerMetreRetail": 3534,
+    "pricePerLotWholesale": 22906,
+    "lotId": "M-0018",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/worsted-blend-urban-a-118-hero-1.webp",
+        "alt": "Worsted Blend Urban hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/worsted-blend-urban-a-118-macro-1.webp",
+        "alt": "Worsted Blend Urban macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 218
+      }
+    ],
+    "alternatives": [
+      "gabardine-tailor-a-116",
+      "twill-cavalry-b-136"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 86,
+      "drape": 56,
+      "breathability": 71
+    }
+  },
+  {
+    "slug": "trouser-weight-executive-a-119",
+    "code": "ATX-M019",
+    "name": {
+      "ar": "Trouser Weight Executive رجالي",
+      "en": "Trouser Weight Executive"
+    },
+    "line": "men",
+    "category": "Shirting",
+    "grade": "A",
+    "saleMode": "retail",
+    "composition": "trouser-weight poly wool",
+    "gsm": 310,
+    "width": 155,
+    "construction": "twill",
+    "finish": "premium pressed",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 23057,
+    "lotId": "M-0019",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/trouser-weight-executive-a-119-hero-1.webp",
+        "alt": "Trouser Weight Executive hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/trouser-weight-executive-a-119-macro-1.webp",
+        "alt": "Trouser Weight Executive macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 219
+      }
+    ],
+    "alternatives": [
+      "linen-blend-cool-a-117",
+      "gabardine-storm-b-137"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 87,
+      "drape": 57,
+      "breathability": 72
+    }
+  },
+  {
+    "slug": "shirting-oxford-a-120",
+    "code": "ATX-M020",
+    "name": {
+      "ar": "Shirting Oxford رجالي",
+      "en": "Shirting Oxford"
+    },
+    "line": "men",
+    "category": "Jersey & Knit",
+    "grade": "A",
+    "saleMode": "both",
+    "composition": "shirting cotton",
+    "gsm": 110,
+    "width": 160,
+    "construction": "poplin",
+    "finish": "premium pressed",
+    "availability": "out-of-stock",
+    "moqM": 60,
+    "pricePerMetreRetail": 3712,
+    "pricePerLotWholesale": 23208,
+    "lotId": "M-0020",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/shirting-oxford-a-120-hero-1.webp",
+        "alt": "Shirting Oxford hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/shirting-oxford-a-120-macro-1.webp",
+        "alt": "Shirting Oxford macro weave grade A men shirting",
+        "source": "photo",
+        "seed": 220
+      }
+    ],
+    "alternatives": [
+      "worsted-blend-urban-a-118",
+      "linen-hopsack-b-138"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة أولى رجالي: نسيج متين.",
+      "en": "First grade men: durable weave."
+    },
+    "bench": {
+      "weight": 88,
+      "drape": 58,
+      "breathability": 73
+    }
+  },
+  {
+    "slug": "crepe-satin-luxe-b-121",
+    "code": "ATX-W021",
+    "name": {
+      "ar": "Crepe Satin Luxe نسائي",
+      "en": "Crepe Satin Luxe"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "poly crepe",
+    "gsm": 85,
+    "width": 150,
+    "construction": "crepe",
+    "finish": "soft finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 3449,
+    "pricePerLotWholesale": 19781,
+    "lotId": "W-0021",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/crepe-satin-luxe-b-121-hero-1.webp",
+        "alt": "Crepe Satin Luxe hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/crepe-satin-luxe-b-121-macro-1.webp",
+        "alt": "Crepe Satin Luxe macro weave detail grade B",
+        "source": "photo",
+        "seed": 121
+      }
+    ],
+    "alternatives": [
+      "tulle-illusion-b-126",
+      "jersey-rib-c-141"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 83,
+      "drape": 73,
+      "breathability": 88
+    }
+  },
+  {
+    "slug": "voile-cotton-light-b-122",
+    "code": "ATX-W022",
+    "name": {
+      "ar": "Voile Cotton Light نسائي",
+      "en": "Voile Cotton Light"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "satin viscose",
+    "gsm": 110,
+    "width": 160,
+    "construction": "satin",
+    "finish": "soft finish",
+    "availability": "out-of-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 19918,
+    "lotId": "W-0022",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/voile-cotton-light-b-122-hero-1.webp",
+        "alt": "Voile Cotton Light hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/voile-cotton-light-b-122-macro-1.webp",
+        "alt": "Voile Cotton Light macro weave detail grade B",
+        "source": "photo",
+        "seed": 122
+      }
+    ],
+    "alternatives": [
+      "organza-sheer-b-127",
+      "scuba-neoprene-c-142"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 84,
+      "drape": 74,
+      "breathability": 89
+    }
+  },
+  {
+    "slug": "jersey-stretch-b-123",
+    "code": "ATX-W023",
+    "name": {
+      "ar": "Jersey Stretch نسائي",
+      "en": "Jersey Stretch"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "cotton voile",
+    "gsm": 70,
+    "width": 140,
+    "construction": "voile",
+    "finish": "soft finish",
+    "availability": "in-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 3595,
+    "pricePerLotWholesale": 20055,
+    "lotId": "W-0023",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/jersey-stretch-b-123-hero-1.webp",
+        "alt": "Jersey Stretch hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/jersey-stretch-b-123-macro-1.webp",
+        "alt": "Jersey Stretch macro weave detail grade B",
+        "source": "photo",
+        "seed": 123
+      }
+    ],
+    "alternatives": [
+      "brocade-heritage-b-128",
+      "lace-guipure-c-143"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 85,
+      "drape": 75,
+      "breathability": 90
+    }
+  },
+  {
+    "slug": "scuba-tech-b-124",
+    "code": "ATX-W024",
+    "name": {
+      "ar": "Scuba Tech نسائي",
+      "en": "Scuba Tech"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "cotton lycra jersey",
+    "gsm": 180,
+    "width": 150,
+    "construction": "jersey",
+    "finish": "soft finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 3668,
+    "pricePerLotWholesale": 20192,
+    "lotId": "W-0024",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/scuba-tech-b-124-hero-1.webp",
+        "alt": "Scuba Tech hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/scuba-tech-b-124-macro-1.webp",
+        "alt": "Scuba Tech macro weave detail grade B",
+        "source": "photo",
+        "seed": 124
+      }
+    ],
+    "alternatives": [
+      "crepe-marocain-b-129",
+      "tulle-point-c-144"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 86,
+      "drape": 76,
+      "breathability": 91
+    }
+  },
+  {
+    "slug": "lace-chantilly-b-125",
+    "code": "ATX-W025",
+    "name": {
+      "ar": "Lace Chantilly نسائي",
+      "en": "Lace Chantilly"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "scuba crepe",
+    "gsm": 260,
+    "width": 160,
+    "construction": "scuba",
+    "finish": "soft finish",
+    "availability": "out-of-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 3741,
+    "pricePerLotWholesale": 20329,
+    "lotId": "W-0025",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/lace-chantilly-b-125-hero-1.webp",
+        "alt": "Lace Chantilly hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/lace-chantilly-b-125-macro-1.webp",
+        "alt": "Lace Chantilly macro weave detail grade B",
+        "source": "photo",
+        "seed": 125
+      }
+    ],
+    "alternatives": [
+      "chiffon-drap-b-130",
+      "organza-crisp-c-145"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 87,
+      "drape": 77,
+      "breathability": 92
+    }
+  },
+  {
+    "slug": "tulle-illusion-b-126",
+    "code": "ATX-W026",
+    "name": {
+      "ar": "Tulle Illusion نسائي",
+      "en": "Tulle Illusion"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "B",
+    "saleMode": "wholesale",
+    "composition": "raschel lace",
+    "gsm": 95,
+    "width": 140,
+    "construction": "lace",
+    "finish": "soft finish",
+    "availability": "in-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 3814,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "W-0026",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/tulle-illusion-b-126-hero-1.webp",
+        "alt": "Tulle Illusion hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/tulle-illusion-b-126-macro-1.webp",
+        "alt": "Tulle Illusion macro weave detail grade B",
+        "source": "photo",
+        "seed": 126
+      }
+    ],
+    "alternatives": [
+      "satin-duchesse-b-131",
+      "brocatelle-c-146"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 88,
+      "drape": 78,
+      "breathability": 93
+    }
+  },
+  {
+    "slug": "organza-sheer-b-127",
+    "code": "ATX-W027",
+    "name": {
+      "ar": "Organza Sheer نسائي",
+      "en": "Organza Sheer"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "tulle net",
+    "gsm": 30,
+    "width": 150,
+    "construction": "tulle",
+    "finish": "soft finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 3887,
+    "pricePerLotWholesale": 20603,
+    "lotId": "W-0027",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/organza-sheer-b-127-hero-1.webp",
+        "alt": "Organza Sheer hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/organza-sheer-b-127-macro-1.webp",
+        "alt": "Organza Sheer macro weave detail grade B",
+        "source": "photo",
+        "seed": 127
+      }
+    ],
+    "alternatives": [
+      "voile-embroidered-b-132",
+      "crepe-de-chine-c-147"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 89,
+      "drape": 79,
+      "breathability": 94
+    }
+  },
+  {
+    "slug": "brocade-heritage-b-128",
+    "code": "ATX-W028",
+    "name": {
+      "ar": "Brocade Heritage نسائي",
+      "en": "Brocade Heritage"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "organza",
+    "gsm": 40,
+    "width": 160,
+    "construction": "organza",
+    "finish": "soft finish",
+    "availability": "out-of-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 3960,
+    "pricePerLotWholesale": 20740,
+    "lotId": "W-0028",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/brocade-heritage-b-128-hero-1.webp",
+        "alt": "Brocade Heritage hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/brocade-heritage-b-128-macro-1.webp",
+        "alt": "Brocade Heritage macro weave detail grade B",
+        "source": "photo",
+        "seed": 128
+      }
+    ],
+    "alternatives": [
+      "jersey-rib-c-141",
+      "chiffon-layer-c-148"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 90,
+      "drape": 80,
+      "breathability": 75
+    }
+  },
+  {
+    "slug": "crepe-marocain-b-129",
+    "code": "ATX-W029",
+    "name": {
+      "ar": "Crepe Marocain نسائي",
+      "en": "Crepe Marocain"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "B",
+    "saleMode": "wholesale",
+    "composition": "brocade jacquard",
+    "gsm": 210,
+    "width": 140,
+    "construction": "brocade",
+    "finish": "soft finish",
+    "availability": "in-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 20877,
+    "lotId": "W-0029",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/crepe-marocain-b-129-hero-1.webp",
+        "alt": "Crepe Marocain hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/crepe-marocain-b-129-macro-1.webp",
+        "alt": "Crepe Marocain macro weave detail grade B",
+        "source": "photo",
+        "seed": 129
+      }
+    ],
+    "alternatives": [
+      "scuba-neoprene-c-142",
+      "satin-charmeuse-c-149"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 91,
+      "drape": 81,
+      "breathability": 76
+    }
+  },
+  {
+    "slug": "chiffon-drap-b-130",
+    "code": "ATX-W030",
+    "name": {
+      "ar": "Chiffon Drapé نسائي",
+      "en": "Chiffon Drapé"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "lining poly",
+    "gsm": 60,
+    "width": 150,
+    "construction": "lining",
+    "finish": "soft finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4106,
+    "pricePerLotWholesale": 21014,
+    "lotId": "W-0030",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/chiffon-drap-b-130-hero-1.webp",
+        "alt": "Chiffon Drapé hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/chiffon-drap-b-130-macro-1.webp",
+        "alt": "Chiffon Drapé macro weave detail grade B",
+        "source": "photo",
+        "seed": 130
+      }
+    ],
+    "alternatives": [
+      "lace-guipure-c-143",
+      "voile-swiss-c-150"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 92,
+      "drape": 82,
+      "breathability": 77
+    }
+  },
+  {
+    "slug": "satin-duchesse-b-131",
+    "code": "ATX-W031",
+    "name": {
+      "ar": "Satin Duchesse نسائي",
+      "en": "Satin Duchesse"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "viscose chiffon",
+    "gsm": 45,
+    "width": 160,
+    "construction": "chiffon",
+    "finish": "soft finish",
+    "availability": "out-of-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 4179,
+    "pricePerLotWholesale": 21151,
+    "lotId": "W-0031",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/satin-duchesse-b-131-hero-1.webp",
+        "alt": "Satin Duchesse hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/satin-duchesse-b-131-macro-1.webp",
+        "alt": "Satin Duchesse macro weave detail grade B",
+        "source": "photo",
+        "seed": 131
+      }
+    ],
+    "alternatives": [
+      "tulle-point-c-144",
+      "jersey-interlock-c-151"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 93,
+      "drape": 83,
+      "breathability": 78
+    }
+  },
+  {
+    "slug": "voile-embroidered-b-132",
+    "code": "ATX-W032",
+    "name": {
+      "ar": "Voile Embroidered نسائي",
+      "en": "Voile Embroidered"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "B",
+    "saleMode": "wholesale",
+    "composition": "poly crepe",
+    "gsm": 85,
+    "width": 140,
+    "construction": "crepe",
+    "finish": "soft finish",
+    "availability": "in-stock",
+    "moqM": 30,
+    "pricePerMetreRetail": 4252,
+    "pricePerLotWholesale": 21288,
+    "lotId": "W-0032",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/voile-embroidered-b-132-hero-1.webp",
+        "alt": "Voile Embroidered hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/voile-embroidered-b-132-macro-1.webp",
+        "alt": "Voile Embroidered macro weave detail grade B",
+        "source": "photo",
+        "seed": 132
+      }
+    ],
+    "alternatives": [
+      "organza-crisp-c-145",
+      "scuba-ponte-c-152"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية: جودة ممتازة مع تفاوت بسيط.",
+      "en": "Second grade: excellent quality with minor variance."
+    },
+    "bench": {
+      "weight": 94,
+      "drape": 84,
+      "breathability": 79
+    }
+  },
+  {
+    "slug": "suiting-worsted-b-133",
+    "code": "ATX-M033",
+    "name": {
+      "ar": "Suiting Worsted رجالي",
+      "en": "Suiting Worsted"
+    },
+    "line": "men",
+    "category": "Linings",
+    "grade": "B",
+    "saleMode": "wholesale",
+    "composition": "suiting worsted",
+    "gsm": 270,
+    "width": 150,
+    "construction": "plain",
+    "finish": "soft wash",
+    "availability": "in-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": 3801,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "M-0033",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/suiting-worsted-b-133-hero-1.webp",
+        "alt": "Suiting Worsted hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/suiting-worsted-b-133-macro-1.webp",
+        "alt": "Suiting Worsted macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 233
+      }
+    ],
+    "alternatives": [
+      "oxford-twill-c-156",
+      "twill-cord-a-115"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 89,
+      "drape": 59,
+      "breathability": 74
+    }
+  },
+  {
+    "slug": "poplin-stretch-b-134",
+    "code": "ATX-M034",
+    "name": {
+      "ar": "Poplin Stretch رجالي",
+      "en": "Poplin Stretch"
+    },
+    "line": "men",
+    "category": "Surplus",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "cotton poplin",
+    "gsm": 120,
+    "width": 155,
+    "construction": "poplin",
+    "finish": "soft wash",
+    "availability": "low-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": 3890,
+    "pricePerLotWholesale": 23510,
+    "lotId": "M-0034",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/poplin-stretch-b-134-hero-1.webp",
+        "alt": "Poplin Stretch hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/poplin-stretch-b-134-macro-1.webp",
+        "alt": "Poplin Stretch macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 234
+      }
+    ],
+    "alternatives": [
+      "twill-drill-c-157",
+      "gabardine-tailor-a-116"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 90,
+      "drape": 60,
+      "breathability": 75
+    }
+  },
+  {
+    "slug": "oxford-stripe-b-135",
+    "code": "ATX-M035",
+    "name": {
+      "ar": "Oxford Stripe رجالي",
+      "en": "Oxford Stripe"
+    },
+    "line": "men",
+    "category": "Men's Apparel",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "oxford weave",
+    "gsm": 140,
+    "width": 160,
+    "construction": "oxford",
+    "finish": "soft wash",
+    "availability": "out-of-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": 3979,
+    "pricePerLotWholesale": 23661,
+    "lotId": "M-0035",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/oxford-stripe-b-135-hero-1.webp",
+        "alt": "Oxford Stripe hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/oxford-stripe-b-135-macro-1.webp",
+        "alt": "Oxford Stripe macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 235
+      }
+    ],
+    "alternatives": [
+      "gabardine-fine-c-158",
+      "linen-blend-cool-a-117"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 91,
+      "drape": 61,
+      "breathability": 76
+    }
+  },
+  {
+    "slug": "twill-cavalry-b-136",
+    "code": "ATX-M036",
+    "name": {
+      "ar": "Twill Cavalry رجالي",
+      "en": "Twill Cavalry"
+    },
+    "line": "men",
+    "category": "Shirting",
+    "grade": "B",
+    "saleMode": "wholesale",
+    "composition": "twill cotton",
+    "gsm": 160,
+    "width": 150,
+    "construction": "twill",
+    "finish": "soft wash",
+    "availability": "in-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": 4068,
+    "pricePerLotWholesale": 23812,
+    "lotId": "M-0036",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/twill-cavalry-b-136-hero-1.webp",
+        "alt": "Twill Cavalry hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/twill-cavalry-b-136-macro-1.webp",
+        "alt": "Twill Cavalry macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 236
+      }
+    ],
+    "alternatives": [
+      "linen-twill-blend-c-159",
+      "worsted-blend-urban-a-118"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 92,
+      "drape": 62,
+      "breathability": 77
+    }
+  },
+  {
+    "slug": "gabardine-storm-b-137",
+    "code": "ATX-M037",
+    "name": {
+      "ar": "Gabardine Storm رجالي",
+      "en": "Gabardine Storm"
+    },
+    "line": "men",
+    "category": "Jersey & Knit",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "gabardine wool blend",
+    "gsm": 240,
+    "width": 155,
+    "construction": "gabardine",
+    "finish": "soft wash",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4157,
+    "pricePerLotWholesale": 23963,
+    "lotId": "M-0037",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/gabardine-storm-b-137-hero-1.webp",
+        "alt": "Gabardine Storm hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/gabardine-storm-b-137-macro-1.webp",
+        "alt": "Gabardine Storm macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 237
+      }
+    ],
+    "alternatives": [
+      "worsted-cool-wool-c-160",
+      "trouser-weight-executive-a-119"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 93,
+      "drape": 63,
+      "breathability": 78
+    }
+  },
+  {
+    "slug": "linen-hopsack-b-138",
+    "code": "ATX-M038",
+    "name": {
+      "ar": "Linen Hopsack رجالي",
+      "en": "Linen Hopsack"
+    },
+    "line": "men",
+    "category": "Linings",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "linen blend",
+    "gsm": 150,
+    "width": 160,
+    "construction": "plain",
+    "finish": "soft wash",
+    "availability": "out-of-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 24114,
+    "lotId": "M-0038",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/linen-hopsack-b-138-hero-1.webp",
+        "alt": "Linen Hopsack hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/linen-hopsack-b-138-macro-1.webp",
+        "alt": "Linen Hopsack macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 238
+      }
+    ],
+    "alternatives": [
+      "poplin-classic-a-113",
+      "shirting-oxford-a-120"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 94,
+      "drape": 64,
+      "breathability": 79
+    }
+  },
+  {
+    "slug": "worsted-flannel-b-139",
+    "code": "ATX-M039",
+    "name": {
+      "ar": "Worsted Flannel رجالي",
+      "en": "Worsted Flannel"
+    },
+    "line": "men",
+    "category": "Surplus",
+    "grade": "B",
+    "saleMode": "both",
+    "composition": "worsted blend",
+    "gsm": 280,
+    "width": 150,
+    "construction": "twill",
+    "finish": "soft wash",
+    "availability": "in-stock",
+    "moqM": 40,
+    "pricePerMetreRetail": 4335,
+    "pricePerLotWholesale": 24265,
+    "lotId": "M-0039",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/worsted-flannel-b-139-hero-1.webp",
+        "alt": "Worsted Flannel hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/worsted-flannel-b-139-macro-1.webp",
+        "alt": "Worsted Flannel macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 239
+      }
+    ],
+    "alternatives": [
+      "oxford-blue-a-114",
+      "suiting-worsted-b-133"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 95,
+      "drape": 65,
+      "breathability": 80
+    }
+  },
+  {
+    "slug": "trouser-wool-blend-b-140",
+    "code": "ATX-M040",
+    "name": {
+      "ar": "Trouser Wool Blend رجالي",
+      "en": "Trouser Wool Blend"
+    },
+    "line": "men",
+    "category": "Men's Apparel",
+    "grade": "B",
+    "saleMode": "retail",
+    "composition": "trouser-weight poly wool",
+    "gsm": 310,
+    "width": 155,
+    "construction": "twill",
+    "finish": "soft wash",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4424,
+    "pricePerLotWholesale": 24416,
+    "lotId": "M-0040",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/trouser-wool-blend-b-140-hero-1.webp",
+        "alt": "Trouser Wool Blend hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/trouser-wool-blend-b-140-macro-1.webp",
+        "alt": "Trouser Wool Blend macro weave grade B men shirting",
+        "source": "photo",
+        "seed": 240
+      }
+    ],
+    "alternatives": [
+      "twill-cord-a-115",
+      "poplin-stretch-b-134"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "درجة ثانية رجالي: جودة عالية.",
+      "en": "Second grade men: high quality."
+    },
+    "bench": {
+      "weight": 96,
+      "drape": 66,
+      "breathability": 81
+    }
+  },
+  {
+    "slug": "jersey-rib-c-141",
+    "code": "ATX-W041",
+    "name": {
+      "ar": "Jersey Rib نسائي",
+      "en": "Jersey Rib"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "satin viscose",
+    "gsm": 110,
+    "width": 150,
+    "construction": "satin",
+    "finish": "value finish, slight irregularity",
+    "availability": "low-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4325,
+    "pricePerLotWholesale": 21425,
+    "lotId": "W-0041",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/jersey-rib-c-141-hero-1.webp",
+        "alt": "Jersey Rib hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/jersey-rib-c-141-macro-1.webp",
+        "alt": "Jersey Rib macro weave detail grade C",
+        "source": "photo",
+        "seed": 141
+      }
+    ],
+    "alternatives": [
+      "crepe-georgette-a-102",
+      "organza-air-a-109"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 95,
+      "drape": 85,
+      "breathability": 80
+    }
+  },
+  {
+    "slug": "scuba-neoprene-c-142",
+    "code": "ATX-W042",
+    "name": {
+      "ar": "Scuba Neoprene نسائي",
+      "en": "Scuba Neoprene"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "cotton voile",
+    "gsm": 70,
+    "width": 160,
+    "construction": "voile",
+    "finish": "value finish, slight irregularity",
+    "availability": "out-of-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4398,
+    "pricePerLotWholesale": 21562,
+    "lotId": "W-0042",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/scuba-neoprene-c-142-hero-1.webp",
+        "alt": "Scuba Neoprene hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/scuba-neoprene-c-142-macro-1.webp",
+        "alt": "Scuba Neoprene macro weave detail grade C",
+        "source": "photo",
+        "seed": 142
+      }
+    ],
+    "alternatives": [
+      "satin-lumiere-a-103",
+      "brocade-royale-a-110"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 96,
+      "drape": 86,
+      "breathability": 81
+    }
+  },
+  {
+    "slug": "lace-guipure-c-143",
+    "code": "ATX-W043",
+    "name": {
+      "ar": "Lace Guipure نسائي",
+      "en": "Lace Guipure"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "cotton lycra jersey",
+    "gsm": 180,
+    "width": 140,
+    "construction": "jersey",
+    "finish": "value finish, slight irregularity",
+    "availability": "in-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4471,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "W-0043",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/lace-guipure-c-143-hero-1.webp",
+        "alt": "Lace Guipure hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/lace-guipure-c-143-macro-1.webp",
+        "alt": "Lace Guipure macro weave detail grade C",
+        "source": "photo",
+        "seed": 143
+      }
+    ],
+    "alternatives": [
+      "cotton-voile-dawn-a-104",
+      "viscose-crepe-flow-a-111"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 97,
+      "drape": 87,
+      "breathability": 82
+    }
+  },
+  {
+    "slug": "tulle-point-c-144",
+    "code": "ATX-W044",
+    "name": {
+      "ar": "Tulle Point نسائي",
+      "en": "Tulle Point"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "C",
+    "saleMode": "retail",
+    "composition": "scuba crepe",
+    "gsm": 260,
+    "width": 150,
+    "construction": "scuba",
+    "finish": "value finish, slight irregularity",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 21836,
+    "lotId": "W-0044",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/tulle-point-c-144-hero-1.webp",
+        "alt": "Tulle Point hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/tulle-point-c-144-macro-1.webp",
+        "alt": "Tulle Point macro weave detail grade C",
+        "source": "photo",
+        "seed": 144
+      }
+    ],
+    "alternatives": [
+      "jersey-soft-a-105",
+      "chiffon-silk-veil-a-112"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 98,
+      "drape": 88,
+      "breathability": 83
+    }
+  },
+  {
+    "slug": "organza-crisp-c-145",
+    "code": "ATX-W045",
+    "name": {
+      "ar": "Organza Crisp نسائي",
+      "en": "Organza Crisp"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "raschel lace",
+    "gsm": 95,
+    "width": 160,
+    "construction": "lace",
+    "finish": "value finish, slight irregularity",
+    "availability": "out-of-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4617,
+    "pricePerLotWholesale": 21973,
+    "lotId": "W-0045",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/organza-crisp-c-145-hero-1.webp",
+        "alt": "Organza Crisp hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/organza-crisp-c-145-macro-1.webp",
+        "alt": "Organza Crisp macro weave detail grade C",
+        "source": "photo",
+        "seed": 145
+      }
+    ],
+    "alternatives": [
+      "scuba-form-a-106",
+      "crepe-satin-luxe-b-121"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 99,
+      "drape": 89,
+      "breathability": 84
+    }
+  },
+  {
+    "slug": "brocatelle-c-146",
+    "code": "ATX-W046",
+    "name": {
+      "ar": "Brocatelle نسائي",
+      "en": "Brocatelle"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "tulle net",
+    "gsm": 30,
+    "width": 140,
+    "construction": "tulle",
+    "finish": "value finish, slight irregularity",
+    "availability": "in-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4690,
+    "pricePerLotWholesale": 22110,
+    "lotId": "W-0046",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/brocatelle-c-146-hero-1.webp",
+        "alt": "Brocatelle hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/brocatelle-c-146-macro-1.webp",
+        "alt": "Brocatelle macro weave detail grade C",
+        "source": "photo",
+        "seed": 146
+      }
+    ],
+    "alternatives": [
+      "lace-bloom-a-107",
+      "voile-cotton-light-b-122"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 70,
+      "drape": 90,
+      "breathability": 85
+    }
+  },
+  {
+    "slug": "crepe-de-chine-c-147",
+    "code": "ATX-W047",
+    "name": {
+      "ar": "Crepe De Chine نسائي",
+      "en": "Crepe De Chine"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "C",
+    "saleMode": "retail",
+    "composition": "organza",
+    "gsm": 40,
+    "width": 150,
+    "construction": "organza",
+    "finish": "value finish, slight irregularity",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4763,
+    "pricePerLotWholesale": 22247,
+    "lotId": "W-0047",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/crepe-de-chine-c-147-hero-1.webp",
+        "alt": "Crepe De Chine hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/crepe-de-chine-c-147-macro-1.webp",
+        "alt": "Crepe De Chine macro weave detail grade C",
+        "source": "photo",
+        "seed": 147
+      }
+    ],
+    "alternatives": [
+      "tulle-whisper-a-108",
+      "jersey-stretch-b-123"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 71,
+      "drape": 91,
+      "breathability": 86
+    }
+  },
+  {
+    "slug": "chiffon-layer-c-148",
+    "code": "ATX-W048",
+    "name": {
+      "ar": "Chiffon Layer نسائي",
+      "en": "Chiffon Layer"
+    },
+    "line": "women",
+    "category": "Lace & Tulle",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "brocade jacquard",
+    "gsm": 210,
+    "width": 160,
+    "construction": "brocade",
+    "finish": "value finish, slight irregularity",
+    "availability": "out-of-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4836,
+    "pricePerLotWholesale": 22384,
+    "lotId": "W-0048",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/chiffon-layer-c-148-hero-1.webp",
+        "alt": "Chiffon Layer hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/chiffon-layer-c-148-macro-1.webp",
+        "alt": "Chiffon Layer macro weave detail grade C",
+        "source": "photo",
+        "seed": 148
+      }
+    ],
+    "alternatives": [
+      "organza-air-a-109",
+      "scuba-tech-b-124"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 72,
+      "drape": 92,
+      "breathability": 87
+    }
+  },
+  {
+    "slug": "satin-charmeuse-c-149",
+    "code": "ATX-W049",
+    "name": {
+      "ar": "Satin Charmeuse نسائي",
+      "en": "Satin Charmeuse"
+    },
+    "line": "women",
+    "category": "Jersey & Knit",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "lining poly",
+    "gsm": 60,
+    "width": 140,
+    "construction": "lining",
+    "finish": "value finish, slight irregularity",
+    "availability": "in-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 4909,
+    "pricePerLotWholesale": 22521,
+    "lotId": "W-0049",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/satin-charmeuse-c-149-hero-1.webp",
+        "alt": "Satin Charmeuse hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/satin-charmeuse-c-149-macro-1.webp",
+        "alt": "Satin Charmeuse macro weave detail grade C",
+        "source": "photo",
+        "seed": 149
+      }
+    ],
+    "alternatives": [
+      "brocade-royale-a-110",
+      "lace-chantilly-b-125"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 73,
+      "drape": 93,
+      "breathability": 88
+    }
+  },
+  {
+    "slug": "voile-swiss-c-150",
+    "code": "ATX-W050",
+    "name": {
+      "ar": "Voile Swiss نسائي",
+      "en": "Voile Swiss"
+    },
+    "line": "women",
+    "category": "Linings",
+    "grade": "C",
+    "saleMode": "retail",
+    "composition": "viscose chiffon",
+    "gsm": 45,
+    "width": 150,
+    "construction": "chiffon",
+    "finish": "value finish, slight irregularity",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4982,
+    "pricePerLotWholesale": 22658,
+    "lotId": "W-0050",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/voile-swiss-c-150-hero-1.webp",
+        "alt": "Voile Swiss hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/voile-swiss-c-150-macro-1.webp",
+        "alt": "Voile Swiss macro weave detail grade C",
+        "source": "photo",
+        "seed": 150
+      }
+    ],
+    "alternatives": [
+      "viscose-crepe-flow-a-111",
+      "tulle-illusion-b-126"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 74,
+      "drape": 94,
+      "breathability": 89
+    }
+  },
+  {
+    "slug": "jersey-interlock-c-151",
+    "code": "ATX-W051",
+    "name": {
+      "ar": "Jersey Interlock نسائي",
+      "en": "Jersey Interlock"
+    },
+    "line": "women",
+    "category": "Surplus",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "poly crepe",
+    "gsm": 85,
+    "width": 160,
+    "construction": "crepe",
+    "finish": "value finish, slight irregularity",
+    "availability": "out-of-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 22795,
+    "lotId": "W-0051",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/jersey-interlock-c-151-hero-1.webp",
+        "alt": "Jersey Interlock hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/jersey-interlock-c-151-macro-1.webp",
+        "alt": "Jersey Interlock macro weave detail grade C",
+        "source": "photo",
+        "seed": 151
+      }
+    ],
+    "alternatives": [
+      "chiffon-silk-veil-a-112",
+      "organza-sheer-b-127"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 75,
+      "drape": 60,
+      "breathability": 90
+    }
+  },
+  {
+    "slug": "scuba-ponte-c-152",
+    "code": "ATX-W052",
+    "name": {
+      "ar": "Scuba Ponte نسائي",
+      "en": "Scuba Ponte"
+    },
+    "line": "women",
+    "category": "Women's Apparel",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "satin viscose",
+    "gsm": 110,
+    "width": 140,
+    "construction": "satin",
+    "finish": "value finish, slight irregularity",
+    "availability": "in-stock",
+    "moqM": 20,
+    "pricePerMetreRetail": 5128,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "W-0052",
+    "shades": [
+      {
+        "name": "Ivory",
+        "hex": "#f5efe6"
+      },
+      {
+        "name": "Dusty Rose",
+        "hex": "#d4a5a5"
+      },
+      {
+        "name": "Navy",
+        "hex": "#14304d"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/scuba-ponte-c-152-hero-1.webp",
+        "alt": "Scuba Ponte hero apparel fabric fine weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/scuba-ponte-c-152-macro-1.webp",
+        "alt": "Scuba Ponte macro weave detail grade C",
+        "source": "photo",
+        "seed": 152
+      }
+    ],
+    "alternatives": [
+      "crepe-satin-luxe-b-121",
+      "brocade-heritage-b-128"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية: بقايا أطوال قصيرة بسعر مميز.",
+      "en": "Value: overstock and short lengths at sharp price."
+    },
+    "bench": {
+      "weight": 76,
+      "drape": 61,
+      "breathability": 91
+    }
+  },
+  {
+    "slug": "shirting-poplin-c-153",
+    "code": "ATX-M053",
+    "name": {
+      "ar": "Shirting Poplin رجالي",
+      "en": "Shirting Poplin"
+    },
+    "line": "men",
+    "category": "Shirting",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "shirting cotton",
+    "gsm": 110,
+    "width": 160,
+    "construction": "poplin",
+    "finish": "value finish",
+    "availability": "out-of-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": 4513,
+    "pricePerLotWholesale": 24567,
+    "lotId": "M-0053",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/shirting-poplin-c-153-hero-1.webp",
+        "alt": "Shirting Poplin hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/shirting-poplin-c-153-macro-1.webp",
+        "alt": "Shirting Poplin macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 253
+      }
+    ],
+    "alternatives": [
+      "trouser-wool-blend-b-140",
+      "worsted-cool-wool-c-160"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 97,
+      "drape": 67,
+      "breathability": 82
+    }
+  },
+  {
+    "slug": "suiting-sharkskin-c-154",
+    "code": "ATX-M054",
+    "name": {
+      "ar": "Suiting Sharkskin رجالي",
+      "en": "Suiting Sharkskin"
+    },
+    "line": "men",
+    "category": "Jersey & Knit",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "suiting worsted",
+    "gsm": 270,
+    "width": 150,
+    "construction": "plain",
+    "finish": "value finish",
+    "availability": "in-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": 4602,
+    "pricePerLotWholesale": "TBD",
+    "lotId": "M-0054",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/suiting-sharkskin-c-154-hero-1.webp",
+        "alt": "Suiting Sharkskin hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/suiting-sharkskin-c-154-macro-1.webp",
+        "alt": "Suiting Sharkskin macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 254
+      }
+    ],
+    "alternatives": [
+      "shirting-poplin-c-153",
+      "poplin-classic-a-113"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 98,
+      "drape": 68,
+      "breathability": 83
+    }
+  },
+  {
+    "slug": "poplin-end-c-155",
+    "code": "ATX-M055",
+    "name": {
+      "ar": "Poplin End رجالي",
+      "en": "Poplin End"
+    },
+    "line": "men",
+    "category": "Linings",
+    "grade": "C",
+    "saleMode": "retail",
+    "composition": "cotton poplin",
+    "gsm": 120,
+    "width": 155,
+    "construction": "poplin",
+    "finish": "value finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4691,
+    "pricePerLotWholesale": 24869,
+    "lotId": "M-0055",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/poplin-end-c-155-hero-1.webp",
+        "alt": "Poplin End hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/poplin-end-c-155-macro-1.webp",
+        "alt": "Poplin End macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 255
+      }
+    ],
+    "alternatives": [
+      "suiting-sharkskin-c-154",
+      "oxford-blue-a-114"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 99,
+      "drape": 69,
+      "breathability": 84
+    }
+  },
+  {
+    "slug": "oxford-twill-c-156",
+    "code": "ATX-M056",
+    "name": {
+      "ar": "Oxford Twill رجالي",
+      "en": "Oxford Twill"
+    },
+    "line": "men",
+    "category": "Surplus",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "oxford weave",
+    "gsm": 140,
+    "width": 160,
+    "construction": "oxford",
+    "finish": "value finish",
+    "availability": "out-of-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": 4780,
+    "pricePerLotWholesale": 25020,
+    "lotId": "M-0056",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/oxford-twill-c-156-hero-1.webp",
+        "alt": "Oxford Twill hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/oxford-twill-c-156-macro-1.webp",
+        "alt": "Oxford Twill macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 256
+      }
+    ],
+    "alternatives": [
+      "poplin-end-c-155",
+      "twill-cord-a-115"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 100,
+      "drape": 70,
+      "breathability": 65
+    }
+  },
+  {
+    "slug": "twill-drill-c-157",
+    "code": "ATX-M057",
+    "name": {
+      "ar": "Twill Drill رجالي",
+      "en": "Twill Drill"
+    },
+    "line": "men",
+    "category": "Men's Apparel",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "twill cotton",
+    "gsm": 160,
+    "width": 150,
+    "construction": "twill",
+    "finish": "value finish",
+    "availability": "in-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": "TBD",
+    "pricePerLotWholesale": 25171,
+    "lotId": "M-0057",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/twill-drill-c-157-hero-1.webp",
+        "alt": "Twill Drill hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/twill-drill-c-157-macro-1.webp",
+        "alt": "Twill Drill macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 257
+      }
+    ],
+    "alternatives": [
+      "oxford-twill-c-156",
+      "gabardine-tailor-a-116"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 101,
+      "drape": 71,
+      "breathability": 66
+    }
+  },
+  {
+    "slug": "gabardine-fine-c-158",
+    "code": "ATX-M058",
+    "name": {
+      "ar": "Gabardine Fine رجالي",
+      "en": "Gabardine Fine"
+    },
+    "line": "men",
+    "category": "Shirting",
+    "grade": "C",
+    "saleMode": "retail",
+    "composition": "gabardine wool blend",
+    "gsm": 240,
+    "width": 155,
+    "construction": "gabardine",
+    "finish": "value finish",
+    "availability": "low-stock",
+    "moqM": 1,
+    "pricePerMetreRetail": 4958,
+    "pricePerLotWholesale": 25322,
+    "lotId": "M-0058",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/gabardine-fine-c-158-hero-1.webp",
+        "alt": "Gabardine Fine hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/gabardine-fine-c-158-macro-1.webp",
+        "alt": "Gabardine Fine macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 258
+      }
+    ],
+    "alternatives": [
+      "twill-drill-c-157",
+      "linen-blend-cool-a-117"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 102,
+      "drape": 72,
+      "breathability": 67
+    }
+  },
+  {
+    "slug": "linen-twill-blend-c-159",
+    "code": "ATX-M059",
+    "name": {
+      "ar": "Linen Twill Blend رجالي",
+      "en": "Linen Twill Blend"
+    },
+    "line": "men",
+    "category": "Jersey & Knit",
+    "grade": "C",
+    "saleMode": "both",
+    "composition": "linen blend",
+    "gsm": 150,
+    "width": 160,
+    "construction": "plain",
+    "finish": "value finish",
+    "availability": "out-of-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": 5047,
+    "pricePerLotWholesale": 25473,
+    "lotId": "M-0059",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/linen-twill-blend-c-159-hero-1.webp",
+        "alt": "Linen Twill Blend hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/linen-twill-blend-c-159-macro-1.webp",
+        "alt": "Linen Twill Blend macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 259
+      }
+    ],
+    "alternatives": [
+      "gabardine-fine-c-158",
+      "worsted-blend-urban-a-118"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 103,
+      "drape": 73,
+      "breathability": 68
+    }
+  },
+  {
+    "slug": "worsted-cool-wool-c-160",
+    "code": "ATX-M060",
+    "name": {
+      "ar": "Worsted Cool Wool رجالي",
+      "en": "Worsted Cool Wool"
+    },
+    "line": "men",
+    "category": "Linings",
+    "grade": "C",
+    "saleMode": "wholesale",
+    "composition": "worsted blend",
+    "gsm": 280,
+    "width": 150,
+    "construction": "twill",
+    "finish": "value finish",
+    "availability": "in-stock",
+    "moqM": 25,
+    "pricePerMetreRetail": 5136,
+    "pricePerLotWholesale": 25624,
+    "lotId": "M-0060",
+    "shades": [
+      {
+        "name": "White",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#8fc1e3"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#333333"
+      }
+    ],
+    "images": [
+      {
+        "role": "hero",
+        "src": "/images/worsted-cool-wool-c-160-hero-1.webp",
+        "alt": "Worsted Cool Wool hero men apparel fabric weave",
+        "source": "photo"
+      },
+      {
+        "role": "macro",
+        "src": "/images/worsted-cool-wool-c-160-macro-1.webp",
+        "alt": "Worsted Cool Wool macro weave grade C men shirting",
+        "source": "photo",
+        "seed": 260
+      }
+    ],
+    "alternatives": [
+      "linen-twill-blend-c-159",
+      "trouser-weight-executive-a-119"
+    ],
+    "featured": false,
+    "gradeNotes": {
+      "ar": "تصفية رجالي: بقايا دفعات.",
+      "en": "Value men: surplus lots."
+    },
+    "bench": {
+      "weight": 104,
+      "drape": 74,
+      "breathability": 69
+    }
+  }
+]

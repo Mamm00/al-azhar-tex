@@ -1,0 +1,24 @@
+{
+  "name": "Al Azhar Tex",
+  "founder": "Shady Anwar",
+  "founderAr": "شادي أنور",
+  "address": {
+    "ar": "مصر، الشرقية، الزقازيق، الزراعة، بعد موقف أبو حماد — أمام موقف أبو حماد.",
+    "en": "Al Azhar Tex Gallery, Ziraa, Zagazig, Sharkia, Egypt — opposite Abu Hammad car station."
+  },
+  "landmark": {
+    "ar": "أمام موقف أبو حماد",
+    "en": "in front of the Abu Hammad car station"
+  },
+  "phones": [
+    { "label": "retail", "display": "+20 100 360 0949", "href": "tel:+201003600949", "wa": "+201003600949" },
+    { "label": "wholesale", "display": "+20 120 175 4177", "href": "tel:+201201754177", "wa": "+201201754177" }
+  ],
+  "email": "sales@alazhartex.com",
+  "galleryHours": "TBD",
+  "admin": { "passwordHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
+  "retailCutNotice": {
+    "ar": "بنقطع بالمتر من أول متر. اختار القماش، شوفه على الطبيعة، وهنقطعه لك.",
+    "en": "We cut by the metre from the first metre. Pick the fabric, see it under real light, and we'll cut it."
+  }
+}

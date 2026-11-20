@@ -1,0 +1,23 @@
+[
+  {
+    "id": "A",
+    "name": { "ar": "درجة أولى", "en": "Grade A" },
+    "tag": { "ar": "أ · أول", "en": "A · FIRST" },
+    "description": { "ar": "أعلى جودة، نسيج محكم، ملمس فاخر. مناسب لبوتيكات وتصدير.", "en": "Top quality, tight weave, premium hand. For boutiques and export buyers. Retail fit: boutique tailors, premium retail." },
+    "colorVar": "--ok"
+  },
+  {
+    "id": "B",
+    "name": { "ar": "درجة ثانية", "en": "Grade B" },
+    "tag": { "ar": "ب · ثاني", "en": "B · SECOND" },
+    "description": { "ar": "جودة ممتازة مع تفاوت طفيف. سعر متوازن للورش والمصنعين. مناسب قطاعي للخياطين.", "en": "Excellent quality with minor variance. Balanced price for workshops. Retail friendly for tailors." },
+    "colorVar": "--indigo"
+  },
+  {
+    "id": "C",
+    "name": { "ar": "درجة تصفية", "en": "Grade C" },
+    "tag": { "ar": "ج · تصفية", "en": "C · VALUE" },
+    "description": { "ar": "بواقي دفعات وأطوال قصيرة، سعر تصفية. الأكثر ملاءمة للقطاعي — بواقي ممتازة بالمتر.", "en": "Overstock and short lengths at clearance price. Most retail-friendly band — great value by the metre. We grade openly." },
+    "colorVar": "--madder"
+  }
+]
